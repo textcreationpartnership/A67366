@@ -1,0 +1,889 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An essay on the value of the mines, late of Sir Carbery Price by William Waller, Gent ...</title>
+            <author>Waller, William, Gent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 80 KB of XML-encoded text transcribed from 44 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A67366</idno>
+            <idno type="STC">Wing W552A</idno>
+            <idno type="STC">ESTC R13385</idno>
+            <idno type="EEBO-CITATION">13319996</idno>
+            <idno type="OCLC">ocm 13319996</idno>
+            <idno type="VID">99034</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A67366)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 99034)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 442:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An essay on the value of the mines, late of Sir Carbery Price by William Waller, Gent ...</title>
+                  <author>Waller, William, Gent.</author>
+                  <author>Pryse, Carbery, Sir, d. 1695.</author>
+               </titleStmt>
+               <extent>[24], 55 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Two folded ill. inserted between p. [24] and 1, 10 and 11.</note>
+                  <note>Reproduction of original in British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Copper mines and mining --  England --  Cardiganshire.</term>
+               <term>Lead mines and mining --  England --  Cardiganshire.</term>
+               <term>Silver mines and mining --  England --  Cardiganshire.</term>
+               <term>Copper mines and mining --  Early works to 1800.</term>
+               <term>Lead mines and mining --  Early works to 1800.</term>
+               <term>Silver mines and mining --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:99034:1" rendition="simple:additions"/>
+            <pb facs="tcp:99034:1" rendition="simple:additions"/>
+            <p>AN ESSAY ON THE Value of the Mines, LATE OF Sir <hi>Carbery Price.</hi>
+            </p>
+            <p>By <hi>WILLIAM WALLER,</hi> Gent. Steward of the ſaid MINES.</p>
+            <p>
+               <hi>Writ for the private Satisfaction of all the Partners.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed in the Year, MDCXCVIII.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:99034:2" rendition="simple:additions"/>
+            <pb facs="tcp:99034:2" rendition="simple:additions"/>
+            <head>
+               <hi>THE Epiſtle Dedicatory TO S<hi rend="sup">ir</hi> HUMPHRY MACKWORTH, CHAIRMAN, And now Standing in the Place of ED<g ref="char:EOLhyphen"/>WARD PRICE, <abbr>Eſq</abbr> and late of Sir CARBERY PRICE; AND TO</hi>
+               <list>
+                  <item>
+                     <hi>The moſt Noble, his Grace, the Duke of LEEDS,</hi>
+                  </item>
+                  <item>
+                     <hi>The Right Honourable the Mar<g ref="char:EOLhyphen"/>queſs of CARMARTHEN,</hi>
+                  </item>
+                  <item>
+                     <hi>The Right Honourable</hi> Pawlet, <hi>Earl of BULLINGBROOK,</hi>
+                  </item>
+                  <item>
+                     <hi>The Right Honourable</hi> James, <hi>Lord Viſcount LANESBOROUGH,</hi>
+                  </item>
+                  <pb facs="tcp:99034:3"/>
+                  <item>
+                     <hi>The Right Honourable</hi> William, <hi>Lord</hi> Digby,</item>
+                  <item>
+                     <hi>The Honourable Sir</hi> Humphry Ed<g ref="char:EOLhyphen"/>win, <hi>Knight, Lord Mayor of LONDON,</hi>
+                  </item>
+                  <item>
+                     <hi>The Honourable</hi> Hatton Compton, <abbr>
+                        <hi>Eſq</hi>
+                     </abbr>
+                  </item>
+               </list>
+               <hi>AND TO The Honoured, the Lady</hi> Ann Cholm<g ref="char:EOLhyphen"/>ley, <hi>Mrs.</hi> Mary Cholmley, <hi>Mrs.</hi> Bridget Peſball, <hi>Mrs.</hi> Jane Bickerſtaffe, <hi>Mrs.</hi> Ann Hill, <hi>Mrs.</hi> Elizabeth Lloyd, <hi>Widow, Mrs.</hi> Eliz. Lloyd, <hi>Spinſter, Mrs.</hi> Lu<g ref="char:EOLhyphen"/>cy Wright; <hi>AND TO The Honoured Sir</hi> Thomas Mackworth, <hi>Bar<hi rend="sup">t</hi>. Sir</hi> John Price, <hi>Bar<hi rend="sup">t</hi>. Sir</hi> John Morden, <hi>Kn<hi rend="sup">t</hi>. Sir</hi> Charles Bickerſtaffe, <hi>Kn<hi rend="sup">t</hi>. Sir</hi> Chriſtopher Wren, <hi>Kn<hi rend="sup">t</hi>. Sir</hi> Paul Whitchcot, <hi>Kn<hi rend="sup">t</hi>. AND TO The Honoured</hi> Edward Price, <abbr>
+                  <hi>Eſq</hi>
+               </abbr> Hen<g ref="char:EOLhyphen"/>ry Farmer, William Powell, Edward Ni<g ref="char:EOLhyphen"/>cholas,
+<pb facs="tcp:99034:3"/>Bulkley Mackworth, Philip Bic<g ref="char:EOLhyphen"/>kerſtaffe, Arthur Moore, Henry Lloyd, John Meyrick, John Pugh, James Blake, William Freeman, Samuel Trotman, Wil<g ref="char:EOLhyphen"/>liam Nicholas, Joſeph Short, Rich. Ste<g ref="char:EOLhyphen"/>phens, Geo. London, Hen. Simons, Hen. Grove, <hi>and</hi> Joh. Wodehouſe, <hi>Eſquires;</hi>
+               <hi>AND TO Mr.</hi> John Oldbury, Thomas Phips, <hi>Senior,</hi> Paul Docminique, Whitfield Hayter, An<g ref="char:EOLhyphen"/>thony Forty, William Wolley, Thomas Phips, <hi>Junior,</hi> Richard Chancy, Richard Curtis, Thomas Fredericke, Gabriel Glo<g ref="char:EOLhyphen"/>ver, John Glover, Thomas Jeve, John Thrale, Nathanael Troughton, John Newland, John Preſton, Edward Grace, John Hayword, James Hallet, <hi>Mer<g ref="char:EOLhyphen"/>chants, preſent PARTNERS of the ſaid MINES.</hi>
+            </head>
+            <p>HAving had the Honour to be employed in the Manage<g ref="char:EOLhyphen"/>ment of theſe Mines, of Sir <hi>Carbery Price,</hi> for ſix Years last past, and being much concerned to ſee ſo great a Treaſure lye dead
+<pb facs="tcp:99034:4"/>and unwrought, meerly for want of a Stock, and a right Conſtitution for the Management thereof; and find<g ref="char:EOLhyphen"/>ing ſome of the Partners unhappily engaged in Differences and Law-ſuits amongst themſelves, and no probabi<g ref="char:EOLhyphen"/>lity of any Reconciliation, or the Works going forward, without the Aſſiſtance of ſome Publick-ſpirited Gentleman, who both underſtood the Art of Mining, and alſo compoſing of Differences; I thought it my Duty and Interest to make an Enquiry, if poſſibly I could find out ſuch a Per<g ref="char:EOLhyphen"/>ſon, who would Purchaſe the Shares late of Sir <hi>Carbery Price,</hi> and heartily Engage for the Publick Good.</p>
+            <p>But when all the Qualifications are conſidered that were neceſſary to be found in <hi>one Perſon,</hi> upon this Occaſion, I preſume your Honors will
+<pb facs="tcp:99034:4"/>be much enclined to believe, that I undertook no very eaſie Task.</p>
+            <p>For, when I met with an honest Gentleman, I generally found that he was very unskilful in Matters of this nature, and either unable, or fearful, to Engage in ſo great an <g ref="char:V">Ʋ</g>ndertaking; and when I met with a Gentleman who had any Knowledge of theſe things, I pre<g ref="char:EOLhyphen"/>ſently perceived that he was for graſping at all, and, inſtead of being willing to grant any thing for the publick Good, was ſtill for getting more for his own particular and pri<g ref="char:EOLhyphen"/>vate Advantage.</p>
+            <p>So that, upon the whole Matter, I found that ſome had Money, but no Skill, others had Skill, but no Money; ſome again had both Skill and Money, (which was very rare) but yet wanted that generous and
+<pb facs="tcp:99034:5"/>publick Spirit that was neceſſary in this Caſe; and where-ever I found a Perſon who was well diſpoſed in the general, and well qualified in other Reſpects, yet he either want<g ref="char:EOLhyphen"/>ed Courage to venture ſo great a Sum of Money, or Judgment to un<g ref="char:EOLhyphen"/>derſtand the preſent Conſtitutions of the Company, and how to amend them for the publick Good.</p>
+            <p>But at last, when I was, in a manner, in Deſpair, and had given over all hopes of Succeſs, it was my fortune to Travel to <hi>Neath,</hi> in <hi>Glamorgan-ſhire,</hi> where I had the favour of being admitted to ſee the Copper-works and Coal-works of Sir <hi>Humphry Mackworth;</hi> and having obſerved his new Contrivan<g ref="char:EOLhyphen"/>ces in the Management thereof, which were more than I had ſeen before in any part of this Kingdom;
+<pb facs="tcp:99034:5"/>and taking notice of his Judgment in Matters of Law, and alſo of his frank and generous Diſpoſition for the publick Good; and that he was by no means of a covetous or graſping Temper, but took de<g ref="char:EOLhyphen"/>light in the Advantage he brought to others, eſpecially the poor Miners and Labourers, as well as in the Gains he got for himſelf.</p>
+            <p>I preſently concluded, that he was the fittest Perſon I knew, to ſet the Wheels a going with us in <hi>Car<g ref="char:EOLhyphen"/>diganſhire;</hi> and, I humbly conceive, your Honors would all be of the ſame Opinion, if it were lawful for me to diſcover the ſeveral Em<g ref="char:EOLhyphen"/>provements I obſerved at his Works, many of which being yet kept as Se<g ref="char:EOLhyphen"/>crets, I must forbear to mention.</p>
+            <p>But his new Method of Coffering out the Water from his Shafts and
+<pb facs="tcp:99034:6"/>Sinking-pits, and thereby prevent<g ref="char:EOLhyphen"/>ing the Charges of Water-engines, and alſo recovering a large Vein of Coal by that means, which was in vain attempted by other Artiſts; and his new Sailing-waggons, for the cheap Carriage of his Coal to the Water-ſide, <hi>whereby one Horſe does the Work of ten at all times;</hi> but when any Wind is ſtirring (which is ſeldom wanting near the Sea) <hi>one Man and a ſmall Sail does the Work of twenty,</hi> (which are publick,) do ſufficiently ſhew what his Genius is capable of in Matters of that nature.</p>
+            <p>And, I believe, he is the first Gentleman, in this part of the World, that hath ſet up <hi>Sailing-engines on Land, driven by the Wind,</hi> not for any Curioſity, or vain Applauſe, but for real Profit, where<g ref="char:EOLhyphen"/>by
+<pb facs="tcp:99034:6"/>he could not fail of Biſhop <hi>Wil<g ref="char:EOLhyphen"/>kins</hi>'s Bleſſing on his <g ref="char:V">Ʋ</g>ndertakings, in caſe he were in a Capacity to beſtow it.</p>
+            <p>But I must beg leave, not only to mention theſe things, (which (how<g ref="char:EOLhyphen"/>ever others may juſtly Value) I know he is pleaſed to eſteem but as ac<g ref="char:EOLhyphen"/>cidental Trifles that fell in his way) but alſo to take notice of his prudent Methods, for reducing all his <g ref="char:V">Ʋ</g>ndertakings to a Certainty, free from Hazard; his Copper-men working by the Tun, and his Colli<g ref="char:EOLhyphen"/>ers by the Weigh, at a certain Price, which is conſtantly and punctually Paid; whereby, as no Fraud can happen to himſelf, without a Com<g ref="char:EOLhyphen"/>bination of all, ſo good Encourage<g ref="char:EOLhyphen"/>ment is given to the Workmen, to be Careful and Induſtrious, for their own Interest as well as their Ma<g ref="char:EOLhyphen"/>ſters;
+<pb facs="tcp:99034:7"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:99034:7"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:99034:8"/>not to mention the convenient Scituation of his Copper-work, which is ſuch, that his Men may run the Coal, with Wheel-barrows, into the very Furnaces, and bring the Oar by Water within a Stone's cast of the Work; nor his Prudence, in ſecuring Partners who had quanti<g ref="char:EOLhyphen"/>ties of good Copper Oar to be ſmelted with his own Coal, before he be<g ref="char:EOLhyphen"/>gan his Copper-work, whereby the Neceſſity of raiſing a great Stock, keeping many Agents and Stewards, at great Salaries, in ſeveral Coun<g ref="char:EOLhyphen"/>ties, and great Hazards of bad Bargains, and bad Oar, with ma<g ref="char:EOLhyphen"/>ny other Inconveniencies incident to other <g ref="char:V">Ʋ</g>ndertakings of that kind, were all prevented, and not only a great Profit made of the Cop<g ref="char:EOLhyphen"/>per, but alſo a great Vent ſecur'd for his own Coal, both at home in
+<pb facs="tcp:99034:8"/>his own Copper-work, and alſo a<g ref="char:EOLhyphen"/>broad in the West of <hi>England,</hi> in exchanging Coal for Copper Oar.</p>
+            <p>In all which, and in many other Reſpects, which will hereafter ap<g ref="char:EOLhyphen"/>pear, ſuch Management and Con<g ref="char:EOLhyphen"/>duct may very well be admired, e<g ref="char:EOLhyphen"/>ſpecially in a Gentleman that was bred up another way.</p>
+            <p>But I dare not expreſs the Ho<g ref="char:EOLhyphen"/>nour and Eſteem I have for this Gentleman, for fear of giving Of<g ref="char:EOLhyphen"/>fence, and therefore I have only hint<g ref="char:EOLhyphen"/>ed at theſe things at preſent, for my own Vindication, that your Lordſhips and all the Partners may know the true Motives that induced me to la<g ref="char:EOLhyphen"/>bor for this Revolution, and to bring in Sir <hi>Humphry Mackworth</hi> to be ſo highly concerned in theſe Works, <hi>for the common Good of all the PARTNERS,</hi> as well as my own,
+<pb facs="tcp:99034:9"/>and all the Agents employed under them.</p>
+            <p>It was for this end I first commu<g ref="char:EOLhyphen"/>nicated theſe Thoughts to Mr. <hi>Price,</hi> and Mr. <hi>Powel,</hi> in the Country, who knowing theſe things to be true, and being extreamly pleaſed with my Propoſal, ordered me to proceed there<g ref="char:EOLhyphen"/>in, which accordingly I did, and ha<g ref="char:EOLhyphen"/>ving now ſpent near a Year's Time about it, and at last happily effected my Deſign, to the Satisfaction of all Parties.</p>
+            <p>I humbly hope your Honors are, or in a ſhort time will be of Opinion, when your Term is lengthened, and your Conſtitutions ſetled to your own Content, that I have not miſpent my Time in your Service.</p>
+            <p>I must confeſs that nothing ever troubled me ſo much, as the Misfor<g ref="char:EOLhyphen"/>tunes I labour'd under on the account
+<pb facs="tcp:99034:9"/>of theſe Mines: That I ſhould leave my own Habitation, and ſo many Works in the <hi>North,</hi> (in all which I had been fortunate even beyond ex<g ref="char:EOLhyphen"/>pectation) and come ſo far into a ſtrange Country to loſe my Labour, and when I had got Mines under my Management of ſo great a Value, my Hands ſhould be tied up, by un<g ref="char:EOLhyphen"/>happy Differences, from either making Profit to you or my ſelf; and, at last, that it ſhould be recorded in Hiſtory to all Poſterity, <hi>That the richeſt Mines, of that kind, in theſe three Kingdoms, and perhaps in all the Chriſtian World, lay dead and unprofitable, for ſo many Years, during my Stewardſhip;</hi> where<g ref="char:EOLhyphen"/>as if theſe Mines had been carried on with a large Stock, and to the best Advantage, they might by this
+<pb facs="tcp:99034:10"/>time have raiſed the Fortunes of all the Partners concerned, and been as famous in foreign Countries, as most other Mines in the World.</p>
+            <p>When I first viewed theſe Mines, and undertook this Employment, I freely offered (for the Encourage<g ref="char:EOLhyphen"/>ment of all the Partners) to take my Salary out of the clear Profits, but I always apprehended, that I was not to Suffer for any other Per<g ref="char:EOLhyphen"/>ſon's Default but my own; and, on that account, I am ſo far from re<g ref="char:EOLhyphen"/>penting of my Bargain, that allow<g ref="char:EOLhyphen"/>ing one Year to put the Works in or<g ref="char:EOLhyphen"/>der, and aſſuring me of good Ma<g ref="char:EOLhyphen"/>nagement for the future, I ſhall be ready (inſtead of <hi>250 <abbr>l.</abbr> per Ann.</hi> preſent Salary) to take <hi>100 <abbr>l.</abbr>
+               </hi> for every <hi>10000 <abbr>l.</abbr>
+               </hi> a Year clear Profits, which ſhall accrue from theſe Mines to your Treaſury, over and above
+<pb facs="tcp:99034:10"/>all and all manner of Charges and Expences whatſoever.</p>
+            <p>
+               <hi>My LORDS,</hi> I have at my leiſure Hours, and for want of an Opportunity of doing your Lordſhips and your Partners bet<g ref="char:EOLhyphen"/>ter Service, conſidered the Profits, that are uſually made of other Veins, both at home and abroad, eſpecially in the North of <hi>England,</hi> where I am best acquainted, and have com<g ref="char:EOLhyphen"/>pared the Charges and Profits there<g ref="char:EOLhyphen"/>of, and of theſe Mines together, and the vast Advantages theſe Mines have above any of them, which I did at first for my own private <g ref="char:V">Ʋ</g>ſe.</p>
+            <p>But being now adviſed, that it would be a great Satisfaction to your Lordſhips, and all the Part<g ref="char:EOLhyphen"/>ners,
+<pb facs="tcp:99034:11"/>to have a more large Account given of theſe Mines, and that your Lordſhips are deſirous to know my Reaſons for ſetting the ſame at ſuch a Valuation, upon which your Lordſhips, and all the Partners, may be capable of being the best Judges of the Value thereof your ſelves, I have therefore humbly preſumed (tho' a Perſon otherwiſe very unworthy to appear in Print) to publiſh this fol<g ref="char:EOLhyphen"/>lowing Eſſay on the Value of theſe Mines, for your Lordſhips particu<g ref="char:EOLhyphen"/>lar and private Satisfaction.</p>
+            <p>And lest it may be thought I have writ this for any particular Advantage to my ſelf, or to encou<g ref="char:EOLhyphen"/>rage others to any <g ref="char:V">Ʋ</g>ndertaking, in which I durst not venture my own Bottom, as well as theirs; I humbly beg leave hereby to offer to your
+<pb facs="tcp:99034:11"/>Lordſhips, and all the Partners, that I ſhall be ready at all times to accept of Shares for my Salary at the highest Rate that was ever yet given for them.</p>
+            <p>Provided always that you agree together to ſettle a good Conſtitu<g ref="char:EOLhyphen"/>tion for the Management thereof, and to raiſe a competent Stock pro<g ref="char:EOLhyphen"/>portionable to ſo great an <g ref="char:V">Ʋ</g>nder<g ref="char:EOLhyphen"/>taking, to which I am alſo willing to lay down my Proportion, and ſtand or fall by my former and preſent Valuation.</p>
+            <p>For tho' I am ſenſible the ſame may ſeem very high, and almost incre<g ref="char:EOLhyphen"/>dible to others, who do not know the Advantages of theſe Mines, or be<g ref="char:EOLhyphen"/>lieve that they are ſo large as they are deſcribed; yet, to my ſelf, who have ſpent ſo much Time, and ta<g ref="char:EOLhyphen"/>ken
+<pb facs="tcp:99034:12"/>ſo much Pains to conſider of it, and take the exact Meaſures of them, I have great reaſon to be<g ref="char:EOLhyphen"/>lieve (taking one thing with ano<g ref="char:EOLhyphen"/>ther) that I have rather ſet them below, than above, the real Value.</p>
+            <p>For, <hi>Firſt,</hi> The Price of the rai<g ref="char:EOLhyphen"/>ſing the Oar, in the great Vein, is ſet at fourteen Shillings and Three-pence <hi>per</hi> Tun, in the last Valu<g ref="char:EOLhyphen"/>ation, which is much higher than it will really cost when the Levels are carried home.</p>
+            <p>
+               <hi>Secondly,</hi> The five leſſer Veins of Lead are ſet very much below the real Value, if managed with a large Stock.</p>
+            <p>
+               <hi>Thirdly,</hi> The Copper Veins would employ a much greater number of Men, with brisk Management: And,</p>
+            <pb facs="tcp:99034:12"/>
+            <p>
+               <hi>Fourthly,</hi> The Profits of the Silver (which may probably amount to the Value of all the rest) is not computed at all, but only men<g ref="char:EOLhyphen"/>tioned in general Terms.</p>
+            <p>And, as to the largneſs of the Veins, there are ſeveral Gentle<g ref="char:EOLhyphen"/>men, now in Town, who have been in that Country <hi>(viz.)</hi> Dr. <hi>Thomp<g ref="char:EOLhyphen"/>ſon,</hi> Miniſter of <hi>Friday</hi>-Church, Mr. <hi>Phips,</hi> of <hi>Clerkenwel-green,</hi> Mr. <hi>Hoile,</hi> in the <hi>Still-yard,</hi> Mr. <hi>Duckett,</hi> in the <hi>Strand,</hi> near <hi>Exeter-Change,</hi> and ſeveral o<g ref="char:EOLhyphen"/>thers.</p>
+            <p>Who, I ſuppoſe, will all own I ever repreſented, thoſe Veins they took the trouble to view, (which were only the great Vein, and the Bog Vein) rather leſs than greater
+<pb facs="tcp:99034:13"/>than they really were; but, at that time, I had not diſcovered the two Copper Veins, nor the Richneſs of the five leſſer Lead Veins, which now make your Honors Interest of double the Value it was in the Year <hi>1693.</hi>
+            </p>
+            <p>And therefore ſince your Honors are now like to have the Advan<g ref="char:EOLhyphen"/>tage of my Labours, and new Di<g ref="char:EOLhyphen"/>ſcoveries; and, ſince I have been the Inſtrument (under Providence) of bringing in a Gentleman to re<g ref="char:EOLhyphen"/>dreſs your Grievances and encreaſe your Term, I can never doubt, ha<g ref="char:EOLhyphen"/>ving Right done me at your Hands, nor the Works being carried on to the best Advantage.</p>
+            <p>And, for my part, your Honors ſhall all find, that I ſtand upon an ho<g ref="char:EOLhyphen"/>nest
+<pb facs="tcp:99034:13"/>Bottom, and <hi>That the com<g ref="char:EOLhyphen"/>mon Good of all Parties con<g ref="char:EOLhyphen"/>cerned, is all that is deſired, by</hi>
+            </p>
+            <closer>
+               <signed>Your <hi>HONORS</hi> Most Obedient and most Humble Servant, <hi>WILLIAM WALLER.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="illustration">
+            <pb facs="tcp:99034:14"/>
+            <head>A <hi>DESCRIPTION</hi> of the Silver, Lead and Copper-mines, late of Sir <hi>Carbery Price,</hi> lying in <hi>Cardiganſhire,</hi> within four Miles of the Navigable River <hi>Dovey,</hi> and from thence a Mile by Water to the Port of <hi>Aberdovey,</hi> where Veſſels of three or four hun<g ref="char:EOLhyphen"/>dred Tuns may ride with great Safety.</head>
+            <figure>
+               <figDesc>location of veins of copper, silver, and lead</figDesc>
+            </figure>
+            <p>
+               <list>
+                  <item>
+                     <hi>a</hi> THe North Vein of Lead-oar, three Foot wide.</item>
+                  <item>
+                     <hi>b</hi> The great Lead-vein, eleven Foot wide.</item>
+                  <item>
+                     <hi>c</hi> A Vein of Lead-oar ſix Foot wide.</item>
+                  <item>
+                     <hi>e</hi> A Vein of Lead-oar three Foot wide.</item>
+                  <item>
+                     <hi>f</hi> A Vein of Green Copper-oar, four Foot wide, and yields three Tun of Copper from twenty Tun of Oar.</item>
+                  <item>
+                     <hi>g</hi> The Bog-vein, four Foot wide, all Potter's Oar.</item>
+                  <item>
+                     <hi>h</hi> The Croſs Vein of Lead-oar, three Foot wide.</item>
+                  <item>
+                     <hi>i</hi> The Croſs Vein of Brown Cop<g ref="char:EOLhyphen"/>per-oar, five Foot wide, and yields five Tun of Copper out of twenty Tun of Oar</item>
+                  <item>
+                     <hi>k</hi> The firſt great Shaft and Weſtern Boundary.</item>
+                  <item>
+                     <hi>l</hi> The Eaſt Level.</item>
+                  <item>
+                     <hi>m</hi> The Eaſtern Boundary.</item>
+                  <item>
+                     <hi>t t t</hi> The places where the Croſs Veins meet with the other V<gap reason="illegible" resp="#UOM" extent="2+ letters">
+                        <desc>••…</desc>
+                     </gap> which are called by Min <gap reason="illegible" resp="#UOM" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> 
+                     <hi>(T)</hi> of the Veins, and are <gap reason="illegible" resp="#UOM" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>ed the richeſt part of them.</item>
+                  <item>
+                     <hi>o</hi> The Weſt Level.</item>
+               </list>
+            </p>
+            <p>Note, <hi>All the ſaid Veins are fix'd and ſettled betwixt firm and ſolid Sides and riſe equally near to the Surface of the Ground<g ref="char:punc">▪</g> and all <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:99034:15"/>
+            <pb n="1" facs="tcp:99034:15"/>
+            <head>AN ESSAY ON THE Value of the Mines, LATE OF Sir <hi>CARBERY PRICE.</hi>
+            </head>
+            <p>WHAT great Advantages have been made from Mines and Mi<g ref="char:EOLhyphen"/>nerals in all Ages, is a thing ſo well known, that it will be altogether un<g ref="char:EOLhyphen"/>neceſſary to enlarge upon it, being gene<g ref="char:EOLhyphen"/>rally admitted in all Countries abroad, and even at home in this our own Nati<g ref="char:EOLhyphen"/>on, where many great Families have been raiſed, or much enriched by them, beſides Artificers and Tradeſmen; and where a vaſt number of poor People live thereby,
+<pb n="2" facs="tcp:99034:16"/>the very Women and Children finding Employ therein, as well as the Men, e<g ref="char:EOLhyphen"/>ſpecially in the Mines of Lead.</p>
+            <p>The Ingenious Mr. <hi>Carew,</hi> in his Eſſay on the State of <hi>England,</hi> in relation to its Trade, its Poor, and its Taxes, hath this Expreſſion, Viz. <hi>Nor is this all the Pro<g ref="char:EOLhyphen"/>duct of our Earth, whoſe Womb being big with Treaſure, longs to be delivered, and after many Throws, brings forth Lead, Tin, Copper, Calamy, Coal, Culm, Iron, Allom, Copperas and ſundry other Minerals; which return us great Treaſure from Foreign Mar<g ref="char:EOLhyphen"/>kets, whither they are exported.</hi>
+            </p>
+            <p>And Sir <hi>Joſiah Child,</hi> in his Judicious Diſcourſe of Trade, tells us, <q>That our Lead and Tin, which are Natives, and by GOD's Bleſſing, inſeparably annex'd to this Kingdom, carry on much of our Trade to <hi>Turky, Italy, Spain</hi> and <hi>Portu<g ref="char:EOLhyphen"/>gal;</hi> beſides great Quantities that are ſold to <hi>Holland,</hi> to <hi>France,</hi> and to the <hi>Indies,</hi> as is well known to all Mer<g ref="char:EOLhyphen"/>chants that trade to thoſe Parts.</q>
+            </p>
+            <p>But yet many Gentlemen have been much diſcouraged of late from laying out their Money upon Mines, by reaſon of ſeveral Diſappointments that they have met withal; ſome of which were occaſion<g ref="char:EOLhyphen"/>ed
+<pb n="3" facs="tcp:99034:16"/>by the Ignorance of common Work<g ref="char:EOLhyphen"/>men, miſtaking the Sprigs of a Vein for the main Body, which yet an experienced Artiſt can eaſily diſtinguiſh at firſt ſight. Some by the Knavery of Miners who have lodged a quantity of Oar in a Shaft or Drift ſo artificially, as might deceive an ordinary Spectator. Others again have been defeated in their Expectations, when they have had a good Vein, either by paying too high a Duty to the Lord of the Soil, clear off all Charges, or elſe for want of a ſufficient Stock to carry on their Works; for when the Proprietor is not able to make a juſt and punctual Compliance in his Bargains and Pay<g ref="char:EOLhyphen"/>ments, and raiſe a Stock of Oar before-hand, that Work muſt needs ſtop before it's brought to Perfection, and ſo like an Houſe unfiniſhed, and without a Cover, muſt neceſſarily fall together into Ruine and Confuſion; or at leaſt the Proprie<g ref="char:EOLhyphen"/>tor muſt comply to ſuch unprofitable and diſadvantagious Bargains, and ſubmit to ſo great Expences for want of convenient Levels to carry off and drain the Water from the Works, as will render his De<g ref="char:EOLhyphen"/>ſigns fruitleſs, and the richeſt Treaſure of that kind unprofitable.</p>
+            <pb n="4" facs="tcp:99034:17"/>
+            <p>And therefore whoever will begin a Work of this nature, muſt firſt conſider the neceſſary Charges of making the Le<g ref="char:EOLhyphen"/>vels, Adits, Shafts, Smelting-houſes, <hi>&amp;c.</hi> and whether he hath a Stock ſufficient for all theſe things; and thereby to lay a right and ſure Foundation for ſo great an Undertaking: For if he hath not, all his Mony expended will be loſt, and in a manner thrown away; but on the o<g ref="char:EOLhyphen"/>ther hand, where ſuch large Veins of Lead and Copper-oar are actually found fixt and ſettled betwixt their firm and ſolid Sides, (as theſe are) the Lord's Du<g ref="char:EOLhyphen"/>ty bought off, and a competent Stock firſt raiſed to carry on the ſame with Effect, and to the beſt Advantage, there the Profit is vaſtly great, and as certain as any Eſtate in the World: No Man living ever finding the Bottom of ſuch Veins, or failing of great Profit, till the Works are wrought ſo very low beneath the Levels (which in this Caſe muſt be in the next Age) that the Water grows too hard for them.</p>
+            <p>There are in the North of <hi>England</hi> many rich Mines diſcovered; but there is none either in <hi>England</hi> or <hi>Wales,</hi> that can pretend to come near the Value of
+<pb n="5" facs="tcp:99034:17"/>the famous Mines of Sir <hi>Carbery Price:</hi> I have not read or heard of ſuch a Mine of Lead in all the World, as the great Vein, which is eleven Foot wide betwixt its firm Sides, and ſeven Foot and a half already in pure Oar, which ſtill encrea<g ref="char:EOLhyphen"/>ſes downwards; and 'tis not doubted but at laſt it will come to be eleven Foot wide in Oar. And I humbly conceive, I may confidently affirm, That no Hiſtory hath yet given us an Inſtance of ſo many rich Mines, both of Lead and Copper, lying ſo near together: And really I cannot but think it is a great Pity and Loſs, not only to the Owner, and to that Coun<g ref="char:EOLhyphen"/>ty, but even to the whole Nation, that ſo great a Treaſure ſhould lye dead and unwrought, meerly for want of a right Underſtanding thereof.</p>
+            <p>And therefore I have undertaken, with all Submiſſion to better Judgment, to give my Opinion of the VALUE of the ſame: In doing of which, if I ſeem to any Per<g ref="char:EOLhyphen"/>ſon to exceed beyond the Bounds of a mo<g ref="char:EOLhyphen"/>derate Valuation, yet ſince I have wrote nothing but what I firmly believe, and durſt venture my own ſmall Fortune in the World upon it; I humbly hope the candid Reader will not be offended with
+<pb n="6" facs="tcp:99034:18"/>me for only offering ſuch Reaſons to his Conſideration, as by long Practice and Experience in the Mining-trade, hath in<g ref="char:EOLhyphen"/>duced me to be of that Opinion; in which I deſire to be underſtood aright: And therefore my Valuation doth always preſuppoſe that the Mines are purchaſed free from any Duty to the Lord of the Soil, and that a Stock of 20000 <abbr>
+                  <hi>l.</hi>
+               </abbr> be rai<g ref="char:EOLhyphen"/>ſed, whereof ſome part to be employ<g ref="char:EOLhyphen"/>ed for making the Levels, Adits, Shafts, Smelting-houſes, <hi>&amp;c.</hi> and raiſing ſeveral Stages or Stelches, for a Number of Men to be employed together (at which time the Work will be clear of all Obſtructi<g ref="char:EOLhyphen"/>ons from Water, and two Men by blaſt<g ref="char:EOLhyphen"/>ing upwards with Gun-power, will get more Oar, than ſix can do now with their Working-tools) and that the Reſidue thereof be employed in raiſing a Stock of Oar before-hand; and alſo that a Year's time be allowed for putting the Work in Order, and even then (though a ve<g ref="char:EOLhyphen"/>ry conſiderable Profit will be made) yet it is not pretended, under ſome Years more, to bring the Works to the high<g ref="char:EOLhyphen"/>eſt Valuation. And this being premi<g ref="char:EOLhyphen"/>ſed, I obſerve, Firſt,</p>
+            <pb n="7" facs="tcp:99034:18"/>
+            <p>That in the Year 1693, before the Cop<g ref="char:EOLhyphen"/>per-mines were diſcovered, Sir <hi>Carbery Price</hi> having recovered his Right from the Patentees of Royal Mines, divided his Intereſt therein into 4008 Shares, whereof each Share was valued and ſold at 17 <hi>
+                  <abbr>l.</abbr> per</hi> Share; and for the other Moi<g ref="char:EOLhyphen"/>ety he was afterwards offered 40000 <abbr>
+                  <hi>l.</hi>
+               </abbr> by an eminent Merchant in this City, to be immediately paid down; which he refuſed for this Reaſon, that I had then demonſtrated to the ſaid Sir <hi>Carbery,</hi> and his Partners, that with a ſufficient Stock he would be able, in a few Years, with ſix hundred Men, to bring in a clear Profit from one of the ſaid Veins, of 70500 <hi>
+                  <abbr>l.</abbr> per Annum;</hi> as by a Paper printed in the Year 1693, may appear, and herein ſet forth, as followeth, <hi>viz.</hi>
+            </p>
+            <pb n="8" facs="tcp:99034:19"/>
+            <p>
+               <table>
+                  <row>
+                     <cell>Six hundred Men employed at the great Work, when the Levels are up, at 8 <abbr>
+                           <hi>s</hi>
+                        </abbr> 6 <hi>
+                           <abbr>d.</abbr> per</hi> Tun, for Getting, Waſhing, and Making Merchantable, as it is now got, every two Men muſt get above a Tun by Week to make them Wages; but at the rate of one Tun a Week, the ſix hundred Men will raiſe three hundred Tuns by Week, and at fifty Weeks fifteen thouſand Tuns by the Year; this Charge of getting is</cell>
+                     <cell>
+                        <abbr>
+                           <hi>l.</hi>
+                        </abbr> 06375</cell>
+                  </row>
+                  <row>
+                     <cell>Carriage to the River <hi>Dovey</hi> at 5 <hi>
+                           <abbr>s.</abbr> per</hi> Tun</cell>
+                     <cell>03750</cell>
+                  </row>
+                  <row>
+                     <cell>12 <hi>
+                           <abbr>d.</abbr> per</hi> Tun by Water, and for Landing it into the Store<g ref="char:EOLhyphen"/>houſes at the Port of <hi>Aberdo<g ref="char:EOLhyphen"/>vey</hi>
+                     </cell>
+                     <cell>00750</cell>
+                  </row>
+                  <row>
+                     <cell>Fifteen thouſand Tuns of Oar will make ten thouſand Tuns of Lead, ſmelting of this when our Mills are up, at 15 <hi>
+                           <abbr>s.</abbr> per</hi> Tun</cell>
+                     <cell>07500</cell>
+                  </row>
+                  <row>
+                     <cell role="total">
+                        <hi>Charges</hi>
+                     </cell>
+                     <cell role="total">18375</cell>
+                  </row>
+               </table>
+            </p>
+            <pb n="9" facs="tcp:99034:19"/>
+            <p>
+               <table>
+                  <row>
+                     <cell>Ten Thouſand Tuns of Lead, at 9 <hi>
+                           <abbr>l.</abbr> per</hi> Tun</cell>
+                     <cell>90000</cell>
+                  </row>
+                  <row>
+                     <cell>Charge of getting, waſhing, and ſmelting</cell>
+                     <cell>18375</cell>
+                  </row>
+                  <row>
+                     <cell>Sinking Shafts, and incident Charges</cell>
+                     <cell>1125</cell>
+                  </row>
+                  <row>
+                     <cell role="total">Clear Profits</cell>
+                     <cell role="total">70500</cell>
+                  </row>
+               </table>
+            </p>
+            <p>Some Gentlemen have condemned me very much for giving in ſuch an Account, as believing this was a greater Product than can be raiſed from any Mine in the World; but, underfavour, this will ap<g ref="char:EOLhyphen"/>pear a great Miſtake on their ſide, not only from a plain Demonſtration of the thing, as aforeſaid, but from common Ex<g ref="char:EOLhyphen"/>perience in other Mines, both at home and abroad.</p>
+            <p>
+               <note place="margin">
+                  <hi>Vid.</hi> The o<g ref="char:EOLhyphen"/>riginal Map in Copper, by <hi>P. Lee,</hi> at the <hi>Atlas,</hi> in <hi>Cheap-ſide.</hi>
+               </note>As, Firſt in <hi>America,</hi> The fa<g ref="char:EOLhyphen"/>mous Mine of <hi>Potozi</hi> is a ſuffi<g ref="char:EOLhyphen"/>cient Inſtance to the contrary, and therefore I have here in<g ref="char:EOLhyphen"/>certed a Map thereof.</p>
+            <p>
+               <note place="bottom">☞ <hi>Place the Map of</hi> Potozi <hi>in the Page follow<g ref="char:EOLhyphen"/>ing.</hi>
+               </note>
+            </p>
+            <div type="description">
+               <pb n="10" facs="tcp:99034:20"/>
+               <head>A Deſcription of the Mine of <hi>Po<g ref="char:EOLhyphen"/>tozi.</hi>
+               </head>
+               <figure>
+                  <head>The SILVER-MINE of <hi>POTOZI.</hi>
+                  </head>
+                  <p>
+                     <hi>a a</hi> The Vein. <hi>b</hi> The Level. <hi>c</hi> The Smelting Cu<g ref="char:EOLhyphen"/>pilo's. <hi>d</hi> The Road. <hi>E</hi> The River of <hi>Plate. F</hi> Young <hi>Potozi.</hi> The Scale is four hundred Yards in an Inch.</p>
+                  <p>Note, <hi>This Vein is drawn at one End of the Hill, and the Veins of Sir</hi> Carbery Price <hi>are drawn upon the Super<g ref="char:EOLhyphen"/>ficies and Length of the Hill.</hi>
+                  </p>
+               </figure>
+               <p>This Work employs above Twenty Thouſand Miners, and is wrought Night and Day, above a thouſand Yards deep: See <hi>Acoſta</hi> in his Natural Hiſtory of the <hi>Indies,</hi> and the Hiſtory of the New World, by <hi>N. N.</hi>
+               </p>
+               <p>And ſeveral Merchants, that have Tra<g ref="char:EOLhyphen"/>velled into thoſe Parts, relate, That this Mountain, by reaſon of the numerous Smelting-houſes built upon it, doth look at a diſtance as if it were all on Fire: And, That theſe Mines have been the occaſion of building of a very fine Town, at the bottom of the Hill, called, The Town of <hi>Potozi.</hi>
+               </p>
+               <p>Thus you ſee what great things are done at <hi>Potozi</hi> by the poor <hi>Indians;</hi> they can raiſe Two Hundred Fifty ſix Thou<g ref="char:EOLhyphen"/>ſand Two Hundred Fifty Tuns of Silver Oar in a Year; and, yet in <hi>England,</hi> 'tis thought a Fiction and a Romance, and, by ſome, a meer Cheat to draw in Per<g ref="char:EOLhyphen"/>ſons, to ſpeak of raiſing but Fifteen Thou<g ref="char:EOLhyphen"/>ſand Tun of Oar in a Year. I could hear<g ref="char:EOLhyphen"/>tily
+<pb n="12" facs="tcp:99034:23"/>wiſh, for my Country's ſake, that theſe Mines were as rich in Silver as that, I ſhould never doubt, but in a reaſonable time, to equal them in raiſing Oar, from Veins exceeding them in breadth and wideneſs, and in many other Reſpects, provided there were a Stock proportion<g ref="char:EOLhyphen"/>able imployed in the working of them; for there that Mine is wrought a thouſand Yards deep, here from the ſurface of the Ground; there they carry up the Oar on their Backs, in Wallets, as aforeſaid, here with the help of a Windleſs, by which two Men can wind up more than twen<g ref="char:EOLhyphen"/>ty Men can carry on their Backs.</p>
+               <p>And therefore I hope, in every reſpect, it will be thought no Vanity to affirm, That we have as much Art and In<g ref="char:EOLhyphen"/>genuity in <hi>England</hi> as any of the Work<g ref="char:EOLhyphen"/>men in <hi>America;</hi> and I doubt not, but in ſome Years, theſe Mines in <hi>Cardi<g ref="char:EOLhyphen"/>ganſhire,</hi> will give occaſion for erecting as large a Town as that at <hi>Potozi,</hi> which may deſervedly be called by the Name of <hi>Welſh Potozi;</hi> and, one Advantage at leaſt, theſe will have above <hi>Potoz<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> that whereas that Mountain is Seventy Leagues from the Sea, here the Proprie<g ref="char:EOLhyphen"/>tors, and Minors, for their Encourage<g ref="char:EOLhyphen"/>ment,
+<pb n="13" facs="tcp:99034:23"/>many have the delightful Proſpect of ſeeing the Ships failing into the Port of <hi>Aberdovey,</hi> to bring them ready Mo<g ref="char:EOLhyphen"/>ney for their Commodities.</p>
+               <p>But, to come back into our own Coun<g ref="char:EOLhyphen"/>try, there are ſeveral Works in the North that come up to this printed Propoſal, conſidering the difference between the Veins; for the <hi>Right Honourable the Earl of</hi> Darwenwater hath, or lately had, Mines of Lead, in <hi>Auſton-moor,</hi> in <hi>Cum<g ref="char:EOLhyphen"/>berland,</hi> about Thirty Miles from the Sea, and made of his Duty (which is a fifth part of the Work) 12000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year. Another eminent Lord, in the North, from a ſmall Vein of Lead, three Foot thick, doth, or lately did, clear 17000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year. Another noble Lord, from a ſmall Vein, not two Foot thick, and thirty Miles from the Sea, doth, or late<g ref="char:EOLhyphen"/>ly did, clear above 7000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year, be<g ref="char:EOLhyphen"/>twixt him and his Farmers, and ſeveral more ſuch Veins there are in the North.</p>
+               <p>Now if theſe ſmall Veins, whereof ſome of them are thirty Fathom deep before they come to the Oar, and ſo far from the Sea, can make ſo great a Profit clear above all Charges, What muſt thoſe Mines yield, whereof one Vein is ſo large
+<pb n="14" facs="tcp:99034:24"/>as aforeſaid, and the leaſt as big as any of them in the North, eſpecially when the Levels are made in a cheap Country, and ſo near the Sea: But the Advantage of theſe Works may farther appear, by an Eſſay on the Value of the Works in the North, and theſe compared toge<g ref="char:EOLhyphen"/>ther, as followeth.</p>
+            </div>
+            <div type="essay">
+               <pb n="15" facs="tcp:99034:24"/>
+               <head>A ſmall <hi>ESSAY,</hi> by a Medium of Prizes, as Oar is got in the North, and in <hi>Wales</hi> at <hi>Eskirhir,</hi> compared together.</head>
+               <p>
+                  <table>
+                     <row>
+                        <cell>THe raiſing Fifteen thou<g ref="char:EOLhyphen"/>ſand Bing of Oar, at 15 <hi>
+                              <abbr>s.</abbr> per</hi> Bing, which is the middle Price between 10 <abbr>
+                              <hi>s.</hi>
+                           </abbr> and 20 <hi>
+                              <abbr>s.</abbr> per</hi> Bing,<note place="margin">
+                              <hi>Note,</hi> That two Bing and one half is one Tun of Oar; but <hi>4</hi> Bing is allowed to make a Tun of Lead.</note> amounts to</cell>
+                        <cell>
+                           <abbr>
+                              <hi>l.</hi>
+                           </abbr> 11250</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>The Duty allowed to the Lord is 1/7 Share and a half, being a Medium betwixt a 10 and a 5 Share, but I'll ad<g ref="char:EOLhyphen"/>mit a 7, and that amounts to 2142 Bings, and 6/7 but I'll admit of one Bing more, which makes 2143 Bings, which being deducted out of 15000 Bings, there re<g ref="char:EOLhyphen"/>mains 12857 Bings, which, at 4 Bings to a Tun, will yield 3214 Tuns and ¼ of ſmelted Lead. The Char<g ref="char:EOLhyphen"/>ges of Smelting thereof at 15 <hi>
+                              <abbr>s.</abbr> per</hi> Tun, amounts to</cell>
+                        <cell>
+                           <abbr>
+                              <hi>l.</hi>
+                           </abbr> 2410</cell>
+                        <cell>
+                           <abbr>
+                              <hi>s.</hi>
+                           </abbr> 10</cell>
+                     </row>
+                     <pb n="16" facs="tcp:99034:25"/>
+                     <row>
+                        <cell>The incident Charges is ac<g ref="char:EOLhyphen"/>counted one third of raiſing the Oar, being their Shafts are ſo very deep, and at that rate amounts to</cell>
+                        <cell>
+                           <abbr>
+                              <hi>l.</hi>
+                           </abbr> 3750</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>The middle Price for Carri<g ref="char:EOLhyphen"/>age to the Water-ſide, be<g ref="char:EOLhyphen"/>tween 20 <abbr>
+                              <hi>s.</hi>
+                           </abbr> and 34 <abbr>
+                              <hi>s.</hi>
+                           </abbr> is 27 <hi>
+                              <abbr>s.</abbr> per</hi> Tun, which, for the ſaid 3214 Tun of Lead, will amount to</cell>
+                        <cell>
+                           <abbr>
+                              <hi>l.</hi>
+                           </abbr> 4338</cell>
+                        <cell>
+                           <abbr>
+                              <hi>s.</hi>
+                           </abbr> 18</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell role="total">Charges</cell>
+                        <cell role="total">21749</cell>
+                        <cell role="total">08</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <table>
+                     <row>
+                        <cell>Let the Price for Lead, in both Eſſays, be ſuppoſed to be 10 <abbr>
+                              <hi>l.</hi>
+                           </abbr> which for 3214 Tuns, will amount to</cell>
+                        <cell>
+                           <abbr>
+                              <hi>l.</hi>
+                           </abbr> 32140</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>Out of which the whole Charge aforeſaid being de<g ref="char:EOLhyphen"/>ducted, there remains clear Profits</cell>
+                        <cell>10390</cell>
+                        <cell>12</cell>
+                     </row>
+                  </table>
+               </p>
+               <pb n="17" facs="tcp:99034:25"/>
+               <p>Now view this Account turned to <hi>Eſ<g ref="char:EOLhyphen"/>kirhir</hi> Account, and charged according<g ref="char:EOLhyphen"/>ly at a middle Price, as Oar is now raiſed before the Levels are made.</p>
+               <p>
+                  <table>
+                     <row>
+                        <cell>The raiſing Fifteen thouſand Bings of Oar, at 5 <abbr>
+                              <hi>s.</hi>
+                           </abbr> 8 <abbr>
+                              <hi>d.</hi>
+                           </abbr> Half-penny <hi>per</hi> Bing, which is 14 <abbr>
+                              <hi>s.</hi>
+                           </abbr> 3 <hi>
+                              <abbr>d.</abbr> per</hi> Tun, which is the middle Price betwixt 8 <abbr>
+                              <hi>s.</hi>
+                           </abbr> 6 <abbr>
+                              <hi>d.</hi>
+                           </abbr> and 20 <hi>
+                              <abbr>s.</abbr> per</hi> Tun, doth amount to</cell>
+                        <cell>
+                           <abbr>
+                              <hi>l.</hi>
+                           </abbr> 4281</cell>
+                        <cell>
+                           <abbr>
+                              <hi>s.</hi>
+                           </abbr> 5</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>This Oar will yield Three thouſand ſeven hundred fif<g ref="char:EOLhyphen"/>ty Tuns, being Five hun<g ref="char:EOLhyphen"/>dred thirty ſix Tuns more than in the former Eſſay, by reaſon here is no Duty paid out to the Lord. The Charge thereof for Smel<g ref="char:EOLhyphen"/>ting, at 15 <hi>
+                              <abbr>s.</abbr> per</hi> Tun</cell>
+                        <cell>2812</cell>
+                        <cell>10</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>Sinking-Shafts, <hi>&amp;c.</hi> being it lies ſo near the Surface, is one fourth of raiſing the Oar</cell>
+                        <cell>
+                           <abbr>
+                              <hi>l.</hi>
+                           </abbr> 1070</cell>
+                        <cell>
+                           <abbr>
+                              <hi>s.</hi>
+                           </abbr> 6</cell>
+                        <cell>
+                           <abbr>
+                              <hi>d.</hi>
+                           </abbr> 3</cell>
+                     </row>
+                     <row>
+                        <cell>The Carriage of Three thou<g ref="char:EOLhyphen"/>ſand ſeven hundred fifty Tuns by Lands, 5 <abbr>
+                              <hi>s.</hi>
+                           </abbr> and by Water 1 <abbr>
+                              <hi>s.</hi>
+                           </abbr> in all 6 <abbr>
+                              <hi>s.</hi>
+                           </abbr> to the Port <hi>Aberdovey</hi>
+                        </cell>
+                        <cell>1125.</cell>
+                        <cell>9.</cell>
+                        <cell> </cell>
+                     </row>
+                     <pb n="18" facs="tcp:99034:26"/>
+                     <row>
+                        <cell>Three thouſand ſeven hun<g ref="char:EOLhyphen"/>dred fifty Tun of Lead, at the ſuppoſed Price of 10 <hi>
+                              <abbr>l.</abbr> per</hi> Tun, amounts to</cell>
+                        <cell>37500</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell role="total">Clear Profits</cell>
+                        <cell role="total">29335</cell>
+                        <cell role="total">18</cell>
+                        <cell role="total">9</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <hi>NOTE,</hi> That in the firſt Eſſay of Works in the North, it appears by Com<g ref="char:EOLhyphen"/>putation, That Seven hundred and fifty Men muſt be employed for the raiſing of the ſaid Fifteen thouſand Bings of Oar, al<g ref="char:EOLhyphen"/>lowing 6 <hi>
+                     <abbr>s.</abbr> per</hi> Week Wages for every Workman; now, if the ſame number of Men, and at the ſame Wages, be employ<g ref="char:EOLhyphen"/>ed at <hi>Eskirhir,</hi> they will raiſe Thirty nine thouſand four hundred and ſixteen Bings, by reaſon the great Vein is ſo much larger, and the Oar is raiſed at ſo ſmall a Price as 5 <abbr>
+                     <hi>s.</hi>
+                  </abbr> 8 <abbr>
+                     <hi>d.</hi>
+                  </abbr> ½ <hi>per</hi> Bing, which proportiona<g ref="char:EOLhyphen"/>bly to the firſt Eſſay, being four Bings to a Tun, makes Nine thouſand eight hun<g ref="char:EOLhyphen"/>dred fifty four Tuns of Lead; but this laſt Eſſay cannot be fully perfected, with<g ref="char:EOLhyphen"/>out ſhowing more at large what Diffe<g ref="char:EOLhyphen"/>rence it makes, by employing Seven hun<g ref="char:EOLhyphen"/>dred and fifty at <hi>Eskirhir.</hi>
+               </p>
+               <pb n="19" facs="tcp:99034:26"/>
+               <p>
+                  <table>
+                     <row>
+                        <cell>Seven hundred and fifty Men muſt raiſe Thirty nine thouſand four hundred and ſixteen Bings, to make their uſual Wages, to every Man, of 6 <hi>
+                              <abbr>s.</abbr> per</hi> Week, at 5 <abbr>
+                              <hi>s.</hi>
+                           </abbr> 8 <abbr>
+                              <hi>d.</hi>
+                           </abbr> ½ <hi>per</hi> Bing. This Charge amounts as before to</cell>
+                        <cell>11250</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>This Oar will yield Nine thouſand eight hundred fifty four Tuns of Lead, which, at 15 <hi>
+                              <abbr>s.</abbr> per</hi> Tun Smelting, is</cell>
+                        <cell>7390</cell>
+                        <cell>10</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>Carriage by Land 5 <abbr>
+                              <hi>s.</hi>
+                           </abbr> and by Water 1 <abbr>
+                              <hi>s.</hi>
+                           </abbr>
+                        </cell>
+                        <cell>2956</cell>
+                        <cell>4</cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>Sinking Shafts and incident Charges</cell>
+                        <cell>1070</cell>
+                        <cell>6</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell role="total">Charges</cell>
+                        <cell role="total">22667</cell>
+                        <cell role="total">0</cell>
+                        <cell role="total">3</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <table>
+                     <row>
+                        <cell>Nine thouſand eight hundred fifty four Tun of Smelted Lead, at 10 <hi>
+                              <abbr>l.</abbr> per</hi> Tun, is</cell>
+                        <cell>9854000</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell role="total">Clear Profits</cell>
+                        <cell role="total">75872</cell>
+                        <cell role="total">19</cell>
+                        <cell role="total">9</cell>
+                     </row>
+                  </table>
+               </p>
+               <pb n="20" facs="tcp:99034:27"/>
+               <p>So that hereby it plainly appears, That the ſame number of Workmen that bring in a Profit of 10390 <abbr>
+                     <hi>l.</hi>
+                  </abbr> 10 <abbr>
+                     <hi>s.</hi>
+                  </abbr> in the Works of the North, being employed in the great Vein above deſcribed, would bring in a clear Profig of 75872 <abbr>
+                     <hi>l.</hi>
+                  </abbr> 19 <abbr>
+                     <hi>s.</hi>
+                  </abbr> 9 <abbr>
+                     <hi>d.</hi>
+                  </abbr>
+                  <hi>per Annum.</hi>
+               </p>
+               <p>It is farther objected by ſome, That ſo great a number of Men cannot be employed in any one Work, and though all the other parts of the Calculation muſt be allowed to be true, yet it will fail in that Particular.</p>
+               <p>
+                  <hi>Anſ.</hi> That in <hi>Arkendale</hi>-Works, in <hi>Yorkſhire,</hi> which is a ſmall Vein, about two Foot wide,<note place="margin">
+                     <hi>At</hi> Keſ<g ref="char:EOLhyphen"/>wick, <hi>in</hi> Cumber<g ref="char:EOLhyphen"/>land, <hi>was employed</hi> 4000 <hi>Men in one Mine.</hi>
+                  </note> there was Six hundred Men employed at three Shifts, Two hundred Men at a Shift, every eight Hours, and only one Man in a Breaſt, where<g ref="char:EOLhyphen"/>as this great Vein employs ſix Men in a Breaſt, on every Stage or Stelch, and more Stages can be raiſed there than could be done in <hi>Arkendale</hi> Works: And in the Work of my Lord <hi>Darwenwater</hi> was employed above a Thouſand Men. In <hi>Cornwall,</hi> and ſome of the Tin Works, employs above Fifteen hundred Men, and in <hi>Germany</hi> they employ a greater
+<pb n="21" facs="tcp:99034:27"/>number, and ſo in <hi>Sweedland, Hungary, Poland,</hi> &amp;c. but in the <hi>West-In<g ref="char:EOLhyphen"/>dies</hi> Ten thouſand,<note place="margin">Windſ<g ref="char:EOLhyphen"/>chalht <hi>Mine in</hi> Hunga<g ref="char:EOLhyphen"/>ry, <hi>employs</hi> 2000 <hi>Men. Vid.</hi> Browns <hi>Travels,</hi> p. 90.</note> and in ſome Mines above Twenty thouſand Men are employed in a Work, as at <hi>Potozi</hi> aforeſaid, and even in theſe very Works, in <hi>Eskir<g ref="char:EOLhyphen"/>hir</hi> in ten Yards ſpace, at three Shifts, every eight Hours, was employed eigh<g ref="char:EOLhyphen"/>teen Men at a Shift, Fifty four Men in every Twenty four Hours; and, with a reaſonable Stock, twenty ſuch Diſtances may be made, which will employ, at the ſame rate, above a Thouſand Men.</p>
+               <p>But this is a new Diſcovery, and, con<g ref="char:EOLhyphen"/>ſequently, cannot ſucceed in the firſt Ad<g ref="char:EOLhyphen"/>venturers Hands: The Truth is, That the Profit appears ſo very conſiderable, that tho' there is nothing of any moment to be objected againſt it, yet the greatneſs of the thing makes it ſeem improbable; For, ſay they, ſuch a thing was never heard of in <hi>England,</hi> therefore it is im<g ref="char:EOLhyphen"/>poſſible it ſhould ever happen: This is the force of the Objection, but, as there is a Reaſon offered, ſo let Reaſon be op<g ref="char:EOLhyphen"/>poſed, and then the Matter will come to a fair Determination; for the very ſame Objection was made againſt the Project
+<pb n="22" facs="tcp:99034:28"/>of the New-river Water, where a Share was ſaid to be valued at firſt at no more than 100 <abbr>
+                     <hi>l.</hi>
+                  </abbr> ſoon after at 500 <abbr>
+                     <hi>l.</hi>
+                  </abbr> and after<g ref="char:EOLhyphen"/>wards Thirty ſix Shares were ſold for One hundred and fifty one thouſand Pounds, to <hi>Simon Middleton,</hi> a Merchant, and the whole Intereſt of the New-river Water is valued at this Day at 300000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> at the leaſt.</p>
+               <p>The General and Penny-poſt Office were at firſt eſteemed as meer Projects, and ſlighted in the beginning, and yet came afterwards to be of great Value, and theſe things, though demonſtrated at firſt, yet were not believed, and no Reaſon could be oppoſed, but only the greatneſs of the Propoſal made them ſeem improbable.</p>
+               <p>And though every new Trade and Voyage, the Merchant contrives, is at firſt a Project, and ſo by conſequence, the Trade to the <hi>East-Indies, Turky, Af<g ref="char:EOLhyphen"/>frica,</hi> and <hi>Hudſon</hi>'s Bay, <hi>&amp;c.</hi> were meer Projects in the Original, and tho' the firſt beginning of theſe Mines might be ſaid to be a Project, in ſome Reſpect, by reaſon of the uncertainty, before they had found the Veins<g ref="char:punc">▪</g> yet I cannot now al<g ref="char:EOLhyphen"/>low, that there is any thing in this Un<g ref="char:EOLhyphen"/>dertaking,
+<pb n="23" facs="tcp:99034:28"/>that ſo much as looks like a Project, ſince every thing is reduced to a certainty before-hand, the Veins being long ſince diſcovered, fixed and ſetled be<g ref="char:EOLhyphen"/>twixt their firm and ſolid Sides, many hundred Tuns of Oar got out of them, till the Water grew troubleſome, and the Partners could not agree to raiſe a ſuffici<g ref="char:EOLhyphen"/>ent Stock, for bringing up a Level to drain the Water from them; but if a Man has a thouſand Acres of the richeſt Meadow-ground, and has no ſtock of Cattle himſelf, nor will buy a ſtock, or rent the ſame out to others that have one, all that rich Land muſt lie dead and un<g ref="char:EOLhyphen"/>profitable, and yet without any Diſpa<g ref="char:EOLhyphen"/>ragement to the Goodneſs of the Land; ſo if a Man has the richeſt Mines in the World, even <hi>Potozi</hi> itſelf, and yet is not willing himſelf to raiſe a competent Stock to make Levels, <hi>&amp;c.</hi> and carry on the Works, nor will part with them to others that are; he can expect no Profit from them, though ever ſo rich and profitable in their own Nature; and this Accident does not leſſen the intrinſick Value of the Mines to Men that have both Stock and Skill to managethem.</p>
+               <pb n="24" facs="tcp:99034:29"/>
+               <p>And to ſuch it is not doubted, but theſe Mines, in a few Years, will be worth a<g ref="char:EOLhyphen"/>bove a Million of Money: For, to return, if this great Vein will yield ſo much a<g ref="char:EOLhyphen"/>lone, What will all the other Veins yield, which are five in number? Be<g ref="char:EOLhyphen"/>ſides the two Copper Veins, and, taking one with another, more large than any in the North; but if my Lord <hi>Darwen<g ref="char:EOLhyphen"/>water</hi> received 12000 <abbr>
+                     <hi>l.</hi>
+                  </abbr> a Year for a fifth Part of a Work, I hope I may modeſt<g ref="char:EOLhyphen"/>ly compute every one of the five Veins at 12000 <hi>
+                     <abbr>l.</abbr> per Annum</hi> each, for the whole Intereſt thereof, (there being no Duty to be paid to the Lord of the Man<g ref="char:EOLhyphen"/>nor) which in the whole, is 60000 <hi>
+                     <abbr>l.</abbr> per. Ann.</hi> more. And ſo much for the Lead<g ref="char:EOLhyphen"/>mines only.</p>
+            </div>
+            <div type="part">
+               <pb n="25" facs="tcp:99034:29"/>
+               <head>As to the Copper Mines,</head>
+               <p>IT appears by the Map, that one is four Foot wide, and the other five Foot wide, betwixt their firm Sides, which are very great Veins of that kind, and the like ſcarce known in theſe Parts; and though they are not carried on to any deepneſs, the one being found at three Yards, and the other at fifteen Yards deep, and are yet mixt with Vein<g ref="char:EOLhyphen"/>ſtone, and ſo not come to the beſt Oar, which, by the Courſe of ſuch Veins, grow much more Rich as they take more Ground upon them, yet, at preſent, the one yields three Tuns of Copper out of twenty Tuns of Oar, which is better than one ſeventh; the other five Tuns from twenty, which is one out of four, as by frequent Trials has been experienced; and this ſort of Oar ſmelts into mallea<g ref="char:EOLhyphen"/>ble Copper, in one Furnace, at the firſt Running, inſomuch that the Profit of theſe two Veins will be very great, whe<g ref="char:EOLhyphen"/>ther ſold by the Tun, or ſmelted into Cop<g ref="char:EOLhyphen"/>per, which may be computed thus:</p>
+            </div>
+            <div type="part">
+               <pb n="26" facs="tcp:99034:30"/>
+               <head>A Computation of the Value of the Copper Mines.</head>
+               <p>
+                  <table>
+                     <row>
+                        <cell>THeſe two Veins, will, in a ſhort time, em<g ref="char:EOLhyphen"/>ploy at three ſeveral Shifts, every eight hours, ſeveral Hundred Men;<note place="margin">
+                              <hi>Note,</hi> In <hi>Keſwick,</hi> in <hi>Cumber<g ref="char:EOLhyphen"/>land,</hi> was employed <hi>4000</hi> Men in one Cop<g ref="char:EOLhyphen"/>per Mine. Sir <hi>John Pettus,</hi> Fo<g ref="char:EOLhyphen"/>dine Rega<g ref="char:EOLhyphen"/>lis, <hi>p. 32.</hi>
+                           </note> but I will ſuppoſe but one hundred Men in each Vein, and the Price of getting the Oar at 20 <abbr>
+                              <hi>s.</hi>
+                           </abbr> 
+                           <hi>per</hi> Tun, though it may be got for leſs; when the Levels are made, theſe two hundred Men to get their uſual Wages, muſt raiſe ſixty Tun <hi>per</hi> Week, which, at fifty Weeks in the Year, is three thouſand Tun a Year, and ſo the Charge of raiſing the Oar is</cell>
+                        <cell>
+                           <abbr>
+                              <hi>l.</hi>
+                           </abbr> 3000</cell>
+                     </row>
+                     <pb n="27" facs="tcp:99034:30"/>
+                     <row>
+                        <cell>This Three thouſand Tun of Oar, at one Fifth and a half, being a Medium be<g ref="char:EOLhyphen"/>tween a Seventh and a Fourth, (but to give a good Allowance, taking one Sixth for the Common Product) will yield Five hundred Tuns of Copper, which, at 20 <hi>
+                              <abbr>l.</abbr> per</hi> Tun, for Smelting and Refining, the Charges thereof will amount to</cell>
+                        <cell>
+                           <abbr>
+                              <hi>l.</hi>
+                           </abbr> 10000</cell>
+                     </row>
+                     <row>
+                        <cell>Carriage of Five hundred Tuns of Copper, to the Port, at 6 <hi>
+                              <abbr>s.</abbr> per</hi> Tun</cell>
+                        <cell>150</cell>
+                     </row>
+                     <row>
+                        <cell>Sinking Shafts, and other in<g ref="char:EOLhyphen"/>cident Charges</cell>
+                        <cell>750</cell>
+                     </row>
+                     <row>
+                        <cell role="total">The whole Charges</cell>
+                        <cell role="total">13900</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <table>
+                     <row>
+                        <cell>Five hundred Tun of Cop<g ref="char:EOLhyphen"/>per, at 100 <hi>
+                              <abbr>l.</abbr> per.</hi> Tun, a<g ref="char:EOLhyphen"/>mounts to</cell>
+                        <cell>50000</cell>
+                     </row>
+                     <row>
+                        <cell role="total">Clear Profits</cell>
+                        <cell role="total">36100</cell>
+                     </row>
+                  </table>
+               </p>
+               <pb n="28" facs="tcp:99034:31"/>
+               <p>
+                  <hi>Object.</hi> That the moſt famous Copper-work in <hi>England</hi> does not make above two or three Hundred Tuns of Copper in one Year.</p>
+               <p>
+                  <hi>Anſ.</hi> That in moſt other Works great part of the Oars there ſmelted, are ſulphu<g ref="char:EOLhyphen"/>ry Oars, and muſt be run through ſix or ſeven Furnaces before they can be refined into good Copper; but if the Managers of thoſe Works had Plenty of ſuch Oar as this, which runs into malleable Cop<g ref="char:EOLhyphen"/>per in one Furnace, they would make five hundred Tun of Copper more eaſily than they make two hundred Tun now.</p>
+               <p>
+                  <hi>Object.</hi> That the Charges of Smelting and Refining is too little in this Calcula<g ref="char:EOLhyphen"/>tion.</p>
+               <p>
+                  <hi>Anſ.</hi> That for Smelting and Refining ſulphury Oars this may be too little, but for this too much, this Oar not requiring above one fifth part of the Firing and Workmanſhip incident to the other, for the Reaſons aforeſaid.</p>
+               <p>
+                  <hi>Object.</hi> That ſo vaſt a Product from Copper-mines ſeems altogether impro<g ref="char:EOLhyphen"/>bable; that ſuch a thing was never heard of, and that it is a great matter to make 10000 <hi>
+                     <abbr>l.</abbr> per Annum</hi> of one Copper-work.</p>
+               <pb n="29" facs="tcp:99034:31" rendition="simple:additions"/>
+               <p>
+                  <hi>Anſ.</hi> This is an Objection, but no Rea<g ref="char:EOLhyphen"/>ſon offered but want of a Precedent, which may be found in <hi>Sweedland,</hi> and <hi>Hunga<g ref="char:EOLhyphen"/>ry</hi> and in many places, and when it is con<g ref="char:EOLhyphen"/>dered, that there is ſuch Oar to be had in <hi>Wales,</hi> that yields ſo rich a proportion of Metal, and nothing can be ſaid why ſo much Oar may not be raiſed every Year, when the Levels are made, which will yield ſo many Tun of Copper at ſuch a Price, and when the vaſt Difference between theſe ſorts of Oar, and the ſulphury Oars is alſo conſidered, and how the Price of the latter is raiſed conſiderably of late, ſo that with the Charges for the ſulphury Oar, for great Land carriage, for great Quantities of Coal, for ſo many Smelters Wages to att<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd ſuch a vaſt number of Furnaces as is uſed for ſuch Oars, with the Reparations of the Furnaces, <hi>&amp;c.</hi> It is well if 20 <hi>
+                     <abbr>l.</abbr> per</hi> Tun be got clear from that Oar; and, from this, 72 <hi>
+                     <abbr>l.</abbr> per</hi> Tun will be got clear, by the Owner thereof, by reaſon the Charges is ſo ſmall, in all reſpects, as aforeſaid: And ſo upon the whole Matter, the ſame Perſon may bet<g ref="char:EOLhyphen"/>ter make 36100 <hi>
+                     <abbr>l.</abbr> per Ann.</hi> clear of theſe Oars, preſuppoſing them to be his own, as aforeſaid, then 10000 <hi>
+                     <abbr>l.</abbr> per Ann.</hi> clear
+<pb n="30" facs="tcp:99034:32"/>of the ſulphury Oars, and buy both Oar and Coal, <hi>&amp;c.</hi>
+               </p>
+               <p>Thus much in general.</p>
+               <p>But here is one thing more parti<g ref="char:EOLhyphen"/>cularly to be obſerved, That whereas ſix or ſeven thouſand Pounds are laid out, in bringing up a Level to a ſingle Mine, perhaps not ſo large as the leaſt of theſe; here one Level, that will not coſt near that Sum, by a croſs Drift, will ſerve for moſt of thoſe Veins, and thereby ſave a vaſt Sum of Money.</p>
+               <p>
+                  <hi>Object.</hi> That if theſe Mines were ſo rich as is pretended, it is not probable the preſent Partners, concerned there<g ref="char:EOLhyphen"/>in, would let them lie dead and un<g ref="char:EOLhyphen"/>wrought.</p>
+               <p>
+                  <hi>Anſ.</hi> The preſent Partners want a Stock, and cannot agree in Ways and Means of raiſing of it; ſome are willing, but not able, others are able, but not willing, tho' they have frequent gene<g ref="char:EOLhyphen"/>ral Meetings for that purpoſe; ſome want Money, and yet are loath to part with their Shares under what they coſt them; others have Money, and will not lay it down for thoſe that have none, unleſs they can have a great Bargain;
+<pb n="31" facs="tcp:99034:32"/>ſome again complain, that they are not right in their Conſtitutions, and will lay down no Money till theſe are rectified, and, whoever peruſes the preſent Pro<g ref="char:EOLhyphen"/>poſals, from the Committee, to Mr. <hi>Price,</hi> will ſee where the Fault lies, and, that neither ſide labours, at this time, under the leaſt Apprehenſions, that the Mines will not anſwer their utmoſt Expectati<g ref="char:EOLhyphen"/>ons, if they had a ſufficient Stock to make the Levels, and carry them on.</p>
+               <p>
+                  <hi>Object.</hi> Now, upon the whole Matter, the only Objection that ſeems to be left is this, That Mines, under Ground, are uncertain things, and, if they ſhould hap<g ref="char:EOLhyphen"/>pen to fail, then all the Money laid out upon them will be loſt, and, tho' they ſhould yield good Oar, yet they may not laſt out half the Term.</p>
+               <p>
+                  <hi>Anſ.</hi> The Terror of a Royal Mine has long kept a great part of this Nation in Ignorance, or elſe this Objection would never be made; for in <hi>Sweedland, Den<g ref="char:EOLhyphen"/>mark, Germany, Poland,</hi> and <hi>Hungary,</hi> and even amongſt the barbarous <hi>Indians,</hi> where the mining Trade is incouraged, it is well known, That Nature is re<g ref="char:EOLhyphen"/>gular in its Productions under Ground as well as above, inaſmuch, as the Know<g ref="char:EOLhyphen"/>ledge
+<pb n="32" facs="tcp:99034:33"/>of theſe things is become a Science, and many learned Volumes, in ſeveral Languages, by <hi>Agricola,</hi> and others, have been written on that Subject.</p>
+               <p>The Inhabitants of <hi>Cornwall, Darby<g ref="char:EOLhyphen"/>ſhire, Yorkſhire, Cumberland, South-wales,</hi> and about <hi>New-caſtle,</hi> can tell how cer<g ref="char:EOLhyphen"/>tain and regular Nature is in this Caſe; for, although ſometimes they meet with Difficulties in the firſt finding of a Vein, as when they meet with a ſmall Sprig of a Vein, which often appears and vaniſhes again before they come to the main Bo<g ref="char:EOLhyphen"/>dy, yet, when once they have found the main Vein, between its firm Sides, they never loſe ſuch a Vein, without an ap<g ref="char:EOLhyphen"/>parent Reaſon above Ground, (as by ſome very deep Dingle or Valley) eſpecially in Lead or Copper Mines, where the Veins lie parpendicular, or ſloping down<g ref="char:EOLhyphen"/>ward; but for Horizontal Veins, as in Cole ſometimes, a perpendicular Rock will cut its Vein in two, and thereupon the Vein may riſe or fall on the other ſide, which is commonly called a Riſe or Dip-dike; but ingenious Artiſts ſel<g ref="char:EOLhyphen"/>dom fail to recover it again: But in theſe Mines,<note place="margin">Note.</note> they have been ſo fully tried from one end of the Hill to
+<pb n="33" facs="tcp:99034:33"/>the other, in ſeveral Places, that there is no room for that part of the Objection in this place.</p>
+               <p>And as to the other part thereof, it was never known, that the bottom of any fixed Veins of Lead or Copper, eſpecial<g ref="char:EOLhyphen"/>ly ſuch large ſetled Veins, with firm Sides, was ever found, or the Works left off, till that the ſame were carried on as deep as the Water would permit; and any Perſon that is acquainted with Mines, can inform us,<note place="margin">Vide <hi>Brown</hi>'s Travels to the Mines in <hi>Hunga<g ref="char:EOLhyphen"/>ry,</hi> p. <hi>98.</hi>
+                  </note> That it is not poſſible to work out theſe Veins with ſo deep a Level with<g ref="char:EOLhyphen"/>in the term of twenty one Years, eſpecially ſince the Veins, ſtill grow richer and wider as they grow deeper; but if it be conſidered, that the Mine of <hi>Potozi</hi> (not above ſix Foot wide in any place) <note place="margin">☜</note> has laſted from the Year 1546, with Twenty or Thirty thouſand Men at work, that Objection muſt for ever ceaſe.</p>
+               <p>And now, upon the whole Matter, It is a wonderful thing to conſider our <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> Merchants, (Perſons of great Worth, Judgment, and Experience) what vaſt Sums of Money they will venture, view
+<pb n="34" facs="tcp:99034:34"/>the fartheſt Countries in the World, ſpread their Sails to the uttermoſt part of the Earth for Traffick; how many Millions they have laid out in the <hi>East-India</hi> Trade, in building Forts, Caſtles, and Garriſons, maintaining Factories and Conſuls, building vaſt Ships, and expo<g ref="char:EOLhyphen"/>ſing all to the greateſt Hazard of Pirates, Tempeſts, and Storms, and yet are eaſily diverted from venturing a ſmall Sum at home in their own Nation, to improve a Trade from the growth of our own Country, though it would yield double the Profit, and far leſs of Hazard.</p>
+               <p>All the reſt of the World are ſtriving to engroſs Trade, and yet this at home remains neglected. This Trade of Lead and Copper, will, in ſome Years, be bet<g ref="char:EOLhyphen"/>ter known in <hi>England,</hi> and, its probable, it will hereafter be a Wonder to the Na<g ref="char:EOLhyphen"/>tion, that ſo vaſt a Treaſure ſhould be ſo long forgotten, and, without doubt, whoever happens to be ſo fortunate as to look into theſe things in time, before they grow too common, will have opportunity of great Bargains, and of raiſing vaſt E<g ref="char:EOLhyphen"/>ſtates to their Families, and of bringing a Bleſſing on their Undertaking, by in<g ref="char:EOLhyphen"/>troducing and encouraging ſuch a Trade,
+<pb n="35" facs="tcp:99034:34"/>as will employ many Thouſands of poor People, and ſhift them from their Dens of Lazineſs, and, by hard Labour, fit them for the Service of their King and Country, either in time of War or Peace.</p>
+               <p>This Trade would conduce not on<g ref="char:EOLhyphen"/>ly to the Advantage of particular Mer<g ref="char:EOLhyphen"/>chants, Tradeſmen, and Labourers, and to the particular Countries, where the Mines lie, but of the whole Kingdom in a national Profit, by promoting a For<g ref="char:EOLhyphen"/>reign Trade to <hi>Holland, France, Spain, Portugal, Italy, Turky,</hi> the <hi>Indies,</hi> &amp;c. with the Commodities of our own Coun<g ref="char:EOLhyphen"/>try, without exporting our Coin or Bul<g ref="char:EOLhyphen"/>lion out of the Nation: This would make, Perſons concerned therein, Merchants as well as Miners: <hi>And, in ſhort, would make</hi> England, <hi>not only the most delightful, but one of the ſtrongest and wealthiest King<g ref="char:EOLhyphen"/>doms in the whole Chriſtian World.</hi>
+               </p>
+            </div>
+            <div type="appendix">
+               <pb n="36" facs="tcp:99034:35"/>
+               <head>AN APPENDIX, Concerning the SILVER That may be Extracted out of theſe MINES.</head>
+               <p>I Preſume, many Perſons, eſpecially thoſe that were concerned under the Society of Royal Mines, may much admire that I have not, in my Eſſay, ſaid one word of the Silver that may be ex<g ref="char:EOLhyphen"/>tracted out of theſe Mines, eſpecially, ſince ſo many Trials have been had, in <hi>Weſtminſter-hall,</hi> about that very Point, and ſuch Proofs made of the Richneſs of them in Silver, by great numbers of Wit<g ref="char:EOLhyphen"/>neſſes upon Oath.</p>
+               <pb n="37" facs="tcp:99034:35"/>
+               <p>I muſt confeſs, ſome part of theſe Veins do yield Silver, for the great Vein lies in ridges or rows, like the Plank in a Floor, <hi>viz.</hi> One ridge of Potters Oar, (which is the richeſt of Lead Oar) and another of Silver Oar, which is poor in Lead, and rich in Silver; and I do not deny, but to the Owner, that has the Oar for nothing, tho' it is not rich enough to take it from him, ſince the late Act concerning Royal Mines, yet it is ſo rich, as that a conſi<g ref="char:EOLhyphen"/>derable Profit may be made out of the ſame.</p>
+               <p>But, I do not think fit, at preſent, to enlarge upon this Subject, nor on the Method of doing thereof, nor diſcloſe the Art of extracting Silver out of Lead, to the beſt Advantage, but ſhall be ready hereafter to communicate my Thoughts thereof as occaſion ſhall require.</p>
+               <p>However, I preſume, I may, without Prejudice, take notice, That Sir <hi>John Pet<g ref="char:EOLhyphen"/>tus,</hi> in his Treatiſe, call'd, <hi>Fodinae Regalis,</hi> p. 10. demonſtrates the Value of Goginian, Coomervin and Darrein Oar, that they yield in Silver <hi>per</hi> Tun, of Metal, fourteen Pounds, beſides the Lead; but if the ſaid Tun of Metal be made of the Oar of Coomſumbloch, it yields 20<abbr>l.</abbr> 
+                  <hi>per</hi> Tun in
+<pb n="38" facs="tcp:99034:36"/>Silver; and in pag. 33. he tells us <q>That Sir, <hi>Hugh Middleton</hi> undertook the Silver Mines in <hi>Cardiganſhire,</hi> paying <hi>400 <abbr>l.</abbr> per Ann.</hi> Rent to the Society of Royal Mines; and he cleared Monthly the Sum of <hi>2000 <abbr>l.</abbr>
+                     </hi> and, had he not diverted his Gains to the making of the New-river from <hi>Ware</hi> to <hi>London,</hi> certainly he would have been Ma<g ref="char:EOLhyphen"/>ſter of a Maſs of Wealth; but great Wits and Purſes ſeldom know how to give Bounds to their Deſignments, and, by undertaking too many things, fail in all: And we may farther give Credit to the Beneficiabneſs of thoſe Mines, when as Mr. <hi>Tho. Buſhel,</hi> by his Knowledge and Ingenuity, to work them to the best Advantage, did find Buſineſs e<g ref="char:EOLhyphen"/>nough there for a Mint, and, with the Pro<g ref="char:EOLhyphen"/>duct thereof, made Proviſion for the Cloath<g ref="char:EOLhyphen"/>ing of the late King's whole Army.</q>
+               </p>
+               <p>All Perſons that know theſe Mines, will agree, That we can raiſe more Sil<g ref="char:EOLhyphen"/>ver Oar, from the Mines of Sir <hi>Carbery Price,</hi> than ever was raiſed from all the other Mines in <hi>Cardiganſhire,</hi> and with far leſs Charges and Expences; but if Sir <hi>Hugh Middleton</hi> alone, with a ſmall Stock, could make 24000<abbr>l.</abbr> 
+                  <hi>per Ann.</hi> and Mr. <hi>Buſhel</hi> cloath a whole Army, What might not the preſent Partners do, if they
+<pb n="39" facs="tcp:99034:36"/>were united, and would heartily joyn together, and raiſe a Stock anſwerable to ſo noble an Undertaking, eſpecially ſince the Art of Extracting and Refining is much improved of late Years, and may be now done with far leſs Expence and waſt of Lead? I believe we ſhall not be oppoſed by any, in caſe we ſhould affirm, That theſe Mines, taking one part with another, are as rich in Silver as ſome of thoſe above-mentioned; and though, at this Rate, theſe Mines would turn to no Account to the Patentees of Royal Mines, ſince the Price of the Oar will amount to more Mony than the clear Profits could be made thereof; yet, to the Propietors of the Mines, and who have bought the ſame free from any Duty to the Lord, this Advantage in Silver will make a vaſt addition to the former Calculations of the Profit of the Lead only.</p>
+               <p>But I ſhall forbear to ſet it down in Figures, leſt I ſhould either raiſe too great an expectation on the one ſide, or frighten the World too much on the o<g ref="char:EOLhyphen"/>ther, with the length of Numbers; for nothing diſpleaſes ſome Perſons more than a Calculation that ſounds ſo large as this would do, upon a modeſt Computation,
+<pb n="40" facs="tcp:99034:37"/>though I cannot ſee any other Method ſo ſecure in order to fix a right Judgment thereof.</p>
+               <p>For, though ſome incident Charges may poſſibly happen hereafter, by ill Management that cannot be thought of at preſent; yet, by this way, you may demonſtrate the true Value ſo near the Matter, that if reaſonable Allowances be made for ſuch Contingencies, a Man cannot eaſily be miſtaken; but, for this, I ſhall not only referr you to what is done in the preſent Age, at <hi>Potozi,</hi> above<g ref="char:EOLhyphen"/>mentioned, (and I might inſtance in ma<g ref="char:EOLhyphen"/>ny other Places) but I will endeavour to open the Eyes of thoſe that are Strangers to theſe things, by letting them alſo ſee the Senſe of Antiquity on this Matter, and that this is no new Method.</p>
+               <p>For, <hi>Xenephon,</hi> an ancient <hi>Greek</hi> Au<g ref="char:EOLhyphen"/>thor, of undoubted Credit, (lately Tran<g ref="char:EOLhyphen"/>ſlated by <hi>W. M.)</hi> and Dedicated to the ingenious Author of the Eſſay on Ways and Means, ſpeaking of the Improve<g ref="char:EOLhyphen"/>ment of the Revenue of <hi>Athens,</hi> and more particularly on their Silver Mines, goes on thus,</p>
+               <q>
+                  <p>(viz.) Our Silver Mines a<g ref="char:EOLhyphen"/>lone, if rightly managed, beſides all the o<g ref="char:EOLhyphen"/>ther Branches of our Revenue, would be an
+<pb n="41" facs="tcp:99034:37"/>ineſtimable Treaſure to the Publick: But, for the benefit of thoſe who are unskill'd in In<g ref="char:EOLhyphen"/>quiries of this nature, I deſign to premiſe ſome general Conſiderations upon the true State and Value of our Silver Mines, that the Publick, upon a right Information, may proceed to the taking ſuch Meaſures and Councels as may improve them to the best Advantage.</p>
+                  <p>No one ever pretended from Tradition, or the earliest Accounts of Time, to determine when theſe Mines first began to be wrought, which is a Proof of their Antiquity; and yet, as ancient as they are, the heaps of Rubbiſh, which have been dug out of them, and lie above Ground, bear no Proportion with the vast Quantities which ſtill remain below, nor does there appear any ſenſible Decay, or Diminution in our Mines; but, as we dig on, we ſtill diſcover freſh Veins of Silver Oar in all parts, and when we had most Labourers at work in the Mines, we found that we had ſtill Buſineſs for more Hands than were imployed.</p>
+                  <p>Nor do I find that the Adventurers in the Mines, retrench the Number of their Work-men, but purchaſe as many new Slaves as they can get; for their Gains are great<g ref="char:EOLhyphen"/>er or leſs in proportion to the Number of
+<pb n="42" facs="tcp:99034:38"/>Hands they imploy. And this is the only Profeſſion I know of, where the <g ref="char:V">Ʋ</g>nderta<g ref="char:EOLhyphen"/>kers are never envied, be their Stock or Profits never ſo extraordinary, becauſe their Gains never interfere with thoſe of their Fellow-traders.</p>
+                  <p>Every Husbandman knows how many Yoak of Oxen and Servants are neceſſary to Cultivate his Farm, and if he imploys more than he has occaſion for, reckons himſelf ſo much a loſer; but no Dealer in the Silver Mines ever thought he had Hands enough to ſet to work.</p>
+                  <p>For there is the Difference between this and all other Profeſſions, That, whereas, in other Callings, for inſtance, Braziers and Blackſmiths, when their Trades are over<g ref="char:EOLhyphen"/>ſtock'd, are undone, becauſe the Price of their Commodities is lower'd of courſe, by the multitude of Sellers: And, likewiſe, a good Year of Corn, and a plentiful Vintage, for the ſame Reaſons, does hurt to the Farmers, and forces them to quit their Employments, and ſet up Publick-houſes, or turn Merchants and Bankers.</p>
+                  <p>But here the Caſe is quite otherwiſe, for the more Oar is found, and the more Silver is wrought, and made, the more Adventu<g ref="char:EOLhyphen"/>rers come in, and the more Hands are im<g ref="char:EOLhyphen"/>ployed in our Mines.</p>
+                  <pb n="43" facs="tcp:99034:38"/>
+                  <p>A Maſter of a Family, indeed, when he is well provided with Furniture, and Houſ<g ref="char:EOLhyphen"/>hold-goods, buys no more; but no Man was ever ſo over-ſtock'd with Silver, as not to deſire a farther increaſe: If there are any who have more than their Occaſions require, they hoard up the rest with as much pleaſure, as if they actually made uſe of it.</p>
+                  <p>And when a Nation is in a flouriſhing condition, no one is at a loſs, how to employ his Money; the Men lay it out in fine Ar<g ref="char:EOLhyphen"/>mour, and in magnificent Houſes and Build<g ref="char:EOLhyphen"/>ings; Women lay it out in great Equipage, coſtly Habits, and rich Cloaths.</p>
+                  <p>And, in accidents of War, when our Lands lie fallow and uncultivated, or in a publick Dearth and Scarcity, What Reſerve have we left to apply to, but Silver to pur<g ref="char:EOLhyphen"/>chaſe Neceſſaries for our Subſiſtance, or hire Auxiliaries for our Defence?</p>
+                  <p>I have inſiſted the longer upon theſe ge<g ref="char:EOLhyphen"/>neral Reflections, to encourage Adventu<g ref="char:EOLhyphen"/>rers of all kinds, to employ as many Hands as poſſible in ſo advantageous a Trade, from theſe plain Conſiderations, <hi>That the Mines can never be exhauſt<g ref="char:EOLhyphen"/>ed,</hi> 
+                     <note place="margin">☜</note> 
+                     <hi>nor can Silver ever loſe its Value.</hi>
+                  </p>
+                  <p>But to draw this Diſcourſe more imme<g ref="char:EOLhyphen"/>diately to the Subject of my preſent Conſide<g ref="char:EOLhyphen"/>ration,
+<pb n="44" facs="tcp:99034:39"/>which is the Maintenance of our Citizens, I will begin to propoſe thoſe Ways and Means, by which the Silver Mines may be improved to the highest Benefit and Ad<g ref="char:EOLhyphen"/>vantage to the Publick; nor do I ſet up for the Vanity of being admired for an Author of new Diſcoveries, for that part of my following Diſcourſe, which relates to the Examples of the preſent Age, lies obvious to all the World; as for what is past, 'tis a Matter of Fact, and every Man might inform himſelf, that would be at the pains of enquiring.</p>
+                  <p>'Tis very ſtrange, that after ſo many Pre<g ref="char:EOLhyphen"/>cedents of private Citizens of <hi>Athens,</hi> who have made their Fortunes by the Mines, the Publick ſhould never think of following their Example; for we who have made in<g ref="char:EOLhyphen"/>quiry into this Matter, have heard, That <hi>Nicias,</hi> the Son of <hi>Niceratus,</hi> had a thou<g ref="char:EOLhyphen"/>ſand Slaves, employed in the Mines whom he let out to <hi>Soſias,</hi> the <hi>Thracian,</hi> upon Condition to receive an <hi>Obolus</hi> a Day, clear of all Charges, for every Head, and that the ſame Complement of Work-men ſhould be always kept on foot.</p>
+                  <p>In like manner, <hi>Hipponicus</hi> had ſix hun<g ref="char:EOLhyphen"/>dred Slaves let out at the ſame Rate, which yielded him a Revenue of a <hi>Mina</hi> a Day;
+<pb n="45" facs="tcp:99034:39"/>and <hi>Philemonides</hi> three hundred, which brought him in half a <hi>Mina</hi> a Day; and many others made the ſame Advantage, in proportion to the number of Slaves they poſſeſſed: But what need we to appeal to Pre<g ref="char:EOLhyphen"/>cedents of an elder Date, when, at this Day, we have ſo many Inſtances of the ſame na<g ref="char:EOLhyphen"/>ture before our Eyes?</p>
+                  <p>Twelve hundred Slaves, when bought, will probably, in five or ſix Years time, produce a Revenue ſufficient to purchaſe as many more as will make the number ſix thouſand. This number, at the rate of an <hi>Obolus</hi> a Day, a Head, clear of all Charges, will af<g ref="char:EOLhyphen"/>ford a yearly Revenue of ſixty Talents; and if but twenty of theſe Talents are laid out in the Purchaſe of more Slaves, the City may employ the Over-plus as they think conveni<g ref="char:EOLhyphen"/>ent, and when the number of Slaves is in<g ref="char:EOLhyphen"/>creaſed to ten thouſand, it will produce a ſtanding Revenue to the Publick, of <hi>A hun<g ref="char:EOLhyphen"/>dred Talents a Year.</hi>
+                  </p>
+                  <p>To demonſtrate, that the Mines would take up a greater proportion of Slaves to work 'em, I appeal to the Authority of all thoſe living Witneſſes, who remember what numbers of Workmen were employed in them, before the taking of <hi>Decelea,</hi> by the <hi>Lace<g ref="char:EOLhyphen"/>demonians,</hi> and our Silver Mines that have
+<pb n="46" facs="tcp:99034:40"/>been wrought for ſo many Ages, with ſuch numbers of Hands; and continue ſtill ſo far from being drained or exhauſted that we can diſcover no viſible difference, in their preſent State from the Accounts our Anceſtors have delivered down to us, are undeniable Proofs of my Aſſertion.</p>
+                  <p>And their preſent Condition, is a good Argument, that there never can be more Hands at work in the Mines than there is em<g ref="char:EOLhyphen"/>ployment for; for we dig on ſtill without find<g ref="char:EOLhyphen"/>ing any bottom or end of our Mines or decay of the Silver Oar.</p>
+                  <p>And Companies of private Adventurers may carry on the ſame Trade in a Joint Stock, nor is there any danger that they and the natio<g ref="char:EOLhyphen"/>nal Company will interfere one with another, but, as Confederates, are ſtrengthen'd by their mutual aſſiſtance to each other; ſo the more Adventurers of all kinds are imployed in the Mines, ſo much larger will the Gains and Ad<g ref="char:EOLhyphen"/>vantage be to all.</p>
+               </q>
+               <p>And thus you ſee that theſe Calculations of mine are no new things, but very ob<g ref="char:EOLhyphen"/>vious to the meaneſt capacity, and com<g ref="char:EOLhyphen"/>monly practiſed in all Ages and Coun<g ref="char:EOLhyphen"/>tries; and there can be no reaſon to doubt but that theſe Siver Mines in <hi>Wales</hi> might prove as rich as thoſe in <hi>Athens</hi> or in <hi>Hun<g ref="char:EOLhyphen"/>gary,</hi>
+                  <pb n="47" facs="tcp:99034:40"/>if carried on with a large Stock, and would not be exhauſted in many Ages;<note place="margin">The Mine at <hi>Chrem<g ref="char:EOLhyphen"/>nitz</hi> in <hi>Hungary,</hi> has been wrought <hi>950</hi> Years. <hi>Brown</hi>'s Travels.</note>and one Reaſon I have (a<g ref="char:EOLhyphen"/>mongſt ſeveral others) to be of this opinion is this, That all great Veins of this nature are in ſome reſpect like a great large ſpread<g ref="char:EOLhyphen"/>ing Oak, and hath a great number of Branches, which, like Bows of a Tree, ſhoot out from the Body of the Vein, in<g ref="char:EOLhyphen"/>ſomuch that when a conſiderable Sum of Mony is gained out of the ſame, and many Years ſpent in the working thereof, ſo that Perſons would naturally be apt to think that the Vein was almoſt work'd out, there is ſtill diſcovered freſh Veins ſhooting forth from the ſides thereof, which are innumerable and ſcarce ever to be exhauſted. This was the Caſe at <hi>A<g ref="char:EOLhyphen"/>thens, Hungary</hi> and other places, and would be found the ſame in <hi>Wales,</hi> if enquired into. Nature is the ſame in all places; and though ſome accidental Variations may happen, between Mines in one Coun<g ref="char:EOLhyphen"/>try and another, yet they do not vary in ſubſtance; and 'tis by theſe Branches that the great Body of the Vein is fed and brought to ſo large a Bulk; you may as well ſee a large Oak without Roots and
+<pb n="48" facs="tcp:99034:41"/>Boughs, as a large Mine without theſe Branches: Small Veins have many ſmall Twigs, which being too little to work, are paſſed by without much notice, as Unprofitable and Uſeleſs; but you will find that many Branches of this great Vein will be as large as moſt Veins now known in the North of <hi>England:</hi> In o<g ref="char:EOLhyphen"/>ther Countries they would know how to value ſuch Mines as theſe, where they have Pits or Shafts three hundred Yards deep, as <hi>Brown,</hi> in his Travels to the Mine-towns in <hi>Hungary,</hi> informs us, <hi>p.</hi> 98. where he ſays, that at the Mine at <hi>Chrem<g ref="char:EOLhyphen"/>nitz,</hi> he went down by the Pit called by the Name of the Emperour <hi>Rodolphus</hi>'s Shaft, gently deſcending by the turning about of a large Wheel, to which the Ca<g ref="char:EOLhyphen"/>ble is faſtned, a hundred and eight Fa<g ref="char:EOLhyphen"/>thoms deep into the Earth, and after ma<g ref="char:EOLhyphen"/>ny Hours being in the Mine, was drawn out again by <hi>Leopold</hi>'s Shaft, ſtreight up, above a hundred and fifty Fathoms; a Height ſurpaſſing that of the Pyramids by a third part. And yet in theſe Parts we will ſcarce be invited to lay out our Mony upon a rich Mine, though it ap<g ref="char:EOLhyphen"/>pears at the Day upon the very Surface of the Ground:</p>
+               <pb n="49" facs="tcp:99034:41"/>
+               <q>
+                  <l>The Fortunate have Hours, and thoſe they chooſe;</l>
+                  <l>The <g ref="char:V">Ʋ</g>nfortunate have Minutes, and thoſe they loſe.</l>
+               </q>
+               <p>I ſhall conclude with the Words of Sir <hi>John Pettus,</hi> who ſaith, fol. 5. as follow<g ref="char:EOLhyphen"/>eth, viz.</p>
+               <q>
+                  <p>Beſides the Enjoyment of the Me<g ref="char:EOLhyphen"/>tals and Minerals digged from the Earth, the Benefit to the Nation is great; for, in the <hi>Book of Rates,</hi> we ſhall find above two hun<g ref="char:EOLhyphen"/>dred Particulars of ingrown Metals and Mi<g ref="char:EOLhyphen"/>nerals, which do afford great Cuſtoms to the Crown, and would do much more, if the Management from their original Vent were daily inſpected. <hi>And, in fol. 34. he ſays,</hi> That it might be added, with ſubmiſſive Confidence, that with due Care herein, we might give Law to all <hi>Europe,</hi> as to all <g ref="char:V">Ʋ</g>
+                     <g ref="char:EOLhyphen"/>tenſils of Metals, whether conſidered Dome<g ref="char:EOLhyphen"/>ſtick or Publick, Civil or Martial.</p>
+                  <p>And the Advantages being ſo, we may juſtly infer, that by the not duly and carefully managing of this Affair, the Diſadvantages are in the ſame degrees as much prejudicial to the Interest of this Kingdom, as the due <g ref="char:V">Ʋ</g>ſe of them would be profitable. For it is
+<pb n="50" facs="tcp:99034:42"/>clearly demonſtrable, that every Year, for many Years past, this Kingdom hath, by Neg<g ref="char:EOLhyphen"/>ligence herein, lost a Million of Mony, which, by Vigilance, they might have ſaved, whereby we want when others abound with our Natu<g ref="char:EOLhyphen"/>ral Store.</p>
+               </q>
+            </div>
+            <div type="conclusion">
+               <pb n="51" facs="tcp:99034:42"/>
+               <head>CONCLUSION TO All the PARTNERS.</head>
+               <p>AND thus as I began, ſo I beg leave to conclude this little Trea<g ref="char:EOLhyphen"/>tiſe under your Patronage and Protection.</p>
+               <p>I muſt confeſs, much more might be ſaid on ſo fruitful a Subject; but you will conſider, that I was brought up a Miner, and not an Orator; my Buſineſs is to demonſtrate the Truth in as few Words as I can, not to put a Varniſh up<g ref="char:EOLhyphen"/>on it, and to Write, not what may be ſaid, but what may be done.</p>
+               <p>And now, in order to the Accompliſh<g ref="char:EOLhyphen"/>ment of what I have Writ, I have but one thing more to offer to your Conſidera<g ref="char:EOLhyphen"/>tions, and that is of ſuch a Nature, as I
+<pb n="52" facs="tcp:99034:43"/>know will be very pleaſing and agree<g ref="char:EOLhyphen"/>able to you, <hi>viz. <hi>That the Poor may have ſome ſmall Share with you in ſo rich a Treaſure, eſpecially the poor Mi<g ref="char:EOLhyphen"/>ners and Labourers;</hi>
+                  </hi> That when they have ſpent their Lives to make you Rich, and are grown Impotent, and unable to Work, either through Age or Acci<g ref="char:EOLhyphen"/>dent, they may have a comfortable Sub<g ref="char:EOLhyphen"/>ſiſtence provided for them.</p>
+               <p>This will bring a Bleſſing from Hea<g ref="char:EOLhyphen"/>ven on your Undertakings, and encou<g ref="char:EOLhyphen"/>rage the moſt skilful Miners (and at lower Rates) to reſort to that Work, where they ſhall be provided for in their old Age, and againſt all Acci<g ref="char:EOLhyphen"/>dents.</p>
+               <p>And this will tend to no ſmall Advan<g ref="char:EOLhyphen"/>tage of all the Partners concerned, who will every Year ſave more by cheap Bar<g ref="char:EOLhyphen"/>gains, than the Charity will amount un<g ref="char:EOLhyphen"/>to; and, in this caſe, every Miner will have an Intereſt in the Works, and will be as careful thereof, as if they were his own. Your Works will never be in want of able Miners, or in danger of being loſt either by Neglect or Treache<g ref="char:EOLhyphen"/>ry; you may then be truly called the
+<pb n="53" facs="tcp:99034:43"/>FRIENDLY SOCIETY OF MINERS, and fear no Combination to deſtroy your Works.</p>
+               <p>'Tis wonderful to obſerve how pun<g ref="char:EOLhyphen"/>ctual and exact <hi>Xenophon</hi> was to engage a Divine Aſſiſtance in the like caſe, whoſe Words are theſe:</p>
+               <p>
+                  <hi>And if the Publick, upon due conſidera<g ref="char:EOLhyphen"/>tion, think fit to execute theſe Orders and Inſtitutions, I would adviſe them to ſend Ambaſſadors to</hi> Delphi, <hi>and</hi> Dodona, <hi>to conſult the Gods, whether ſuch a Reforma<g ref="char:EOLhyphen"/>tion of our Government would not turn to the Advantage of the preſent Age, and the benefit of all Poſterity.</hi>
+               </p>
+               <p>
+                  <hi>And if theſe Reſolutions are ratify'd by the Divine Approbation, to conſult the O<g ref="char:EOLhyphen"/>racle once more, to the protection of what Gods we ſhould recommend the Succeſs of this Enterpriſe, and then to propitiate thoſe Gods we are directed to apply to, in order to engage their Aſſiſtance; and, after this ſolemn Invocation, to enter boldly upon the Execution of this Deſign; for 'tis but rea<g ref="char:EOLhyphen"/>ſon that all <g ref="char:V">Ʋ</g>ndertakings ſhould be attend<g ref="char:EOLhyphen"/>ed with more favourable Succeſs, that are be<g ref="char:EOLhyphen"/>gun, and carried on, under the immediate Care and Protection of Divine Provi<g ref="char:EOLhyphen"/>dence.</hi>
+               </p>
+               <pb n="54" facs="tcp:99034:44"/>
+               <p>Methinks 'tis great Pity that <hi>Xeno<g ref="char:EOLhyphen"/>phon</hi> was not a Chriſtian, and as great a Shame that there ſhould be ſo many Chriſtians who have not the Devotion of <hi>Xenophon.</hi>
+               </p>
+               <p>Who can admire that Mines are ſome<g ref="char:EOLhyphen"/>times unſucceſsful, when Men preſume to dig out the very Bowels of the Earth, enter into the Secrets of the Deep, and rifle the choiceſt Cabinet of Nature, without ſo much as conſecrating the leaſt part thereof to Pious and Charitable U<g ref="char:EOLhyphen"/>ſes?</p>
+               <p>And, on the other ſide, who can doubt Succeſs in any thing Sir <hi>Humphry Mack-worth</hi> undertakes? When his Deſigns ap<g ref="char:EOLhyphen"/>pear ſo generous to his Partners; ſo cha<g ref="char:EOLhyphen"/>ritable to the Poor, and ſo much condu<g ref="char:EOLhyphen"/>cing to the Publick Good? And it is my hopes and belief that his Example, and good Succeſs in this Undertaking, will be a Means to encourage others to do the like, and to follow ſuch a Precedent as may in time extend to make a Provi<g ref="char:EOLhyphen"/>ſion for all the Poor of <hi>England.</hi>
+               </p>
+               <p>And therefore, that he may not be di<g ref="char:EOLhyphen"/>verted from ſo good a Deſign, but may receive Encouragement from you to con<g ref="char:EOLhyphen"/>tinue
+<pb n="55" facs="tcp:99034:44"/>ſteadfaſt to his former Reſolutions, and labour now for the Poor, who will hereafter labour for you: And that you may all, not only obtain a Temporal, but an Eternal Treaſure, that can never be exhauſted, is, and always ſhall be, the Prayers of,</p>
+               <closer>
+                  <signed>
+                     <hi>Your</hi> HONORS <hi>Most Obedient, and most Humble Servant to Command,</hi> WILLIAM WALLER.</signed>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
